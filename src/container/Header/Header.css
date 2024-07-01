@@ -1,0 +1,55 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: #d9281c;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.6fr);
+    gap: 5px;
+    padding: 20px;
+  }
+  
+  .grid-item img {
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 150px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size:60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
