@@ -13,13 +13,13 @@ const Header = () => (
         <img src={images.about1} alt="Image 1" />
       </div>
       <div className="grid-item">
-        <img src={images.about2} alt="Image 2" height={100} />
+        <img src={images.about2} alt="Image 2" />
       </div>
       <div className="grid-item">
-        <img src={images.about3} alt="Image 3" height={100} />
+        <img src={images.about3} alt="Image 3" />
       </div>
       <div className="grid-item">
-        <img src={images.about4} alt="Image 4" height={100} />
+        <img src={images.about4} alt="Image 4"  />
       </div>
     </div>
       

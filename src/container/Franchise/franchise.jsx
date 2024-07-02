@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './franchise.css';
 
 const Franchise = () => {
@@ -7,14 +8,27 @@ const Franchise = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const subject = 'Franchise Inquiry';
-    const body = `Hello,\n\nMy name is ${name} and I am interested in joining the franchise.\n\nThank you.`;
-    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+      from_name: name,
+      reply_to: email,
+      message_html: `Hello,<br/><br/>My name is ${name} and I am interested in joining the franchise.<br/><br/>Thank you.`
+    }, 'YOUR_USER_ID')
+      .then((response) => {
+        console.log('Email sent:', response.status, response.text);
+        alert('Email sent successfully!');
+      }, (error) => {
+        console.error('Email error:', error);
+        alert('Failed to send email. Please try again later.');
+      });
+
+    // Reset form fields
+    setName('');
+    setEmail('');
   };
 
   return (
-    <div className="background-image">
-      <div className="content">
+    <div className="background-image" id="franchise">
+      <div className="fcontent">
         <h4 className='headtext__cormorant1'>Franchise</h4>
         <p>Join our franchise and be a part of our growing family.</p>
         <form onSubmit={handleSubmit}>

@@ -2,7 +2,7 @@
      background-image: url('/src/assets/Franchise.png');
      background-size: cover;
      background-position: center;
-     height: 85vh;
+     height: 50vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -10,7 +10,7 @@
      color: white;
    }
    
-   .content {
+   .fcontent {
      background: rgba(0, 0, 0, 0.3);
      padding: 10px 250px;
      border-radius: 10px;

@@ -1,12 +1,10 @@
 .app__navbar {
-    z-index:9; 
-    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00000042;
-    padding: 4rem 2rem;
+    background-color: #000000;
+    padding: 12px;
 }
 
 .app__navbar-logo {
@@ -124,7 +122,7 @@
 
 @media screen and (max-width: 650px) {
     .app__navbar {
-        padding: 1rem;
+        padding: 1rem 20px;
     }
 
     .app__navbar-login {
@@ -132,6 +130,7 @@
     }
 
     .app__navbar-logo img {
-        width: 110px;
+        width: 199px;
+        justify-content: space-between;
     }
 }

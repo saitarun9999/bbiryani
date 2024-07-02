@@ -8,6 +8,10 @@ import Menu from './container/Menu/menu';
 
 import Franchise from './container/Franchise/franchise';
 
+import ScrollToTop from './scroll-top';
+
+import Offers  from './container/Offers/offers';
+
 
 
 const App = () => (
@@ -17,7 +21,9 @@ const App = () => (
     <Header />
     <Menu/>
     <Gallery />
+    {/* <Offers/> */}
     <Franchise/>
+    <ScrollToTop />
     <Footer />
   </div>
 );
