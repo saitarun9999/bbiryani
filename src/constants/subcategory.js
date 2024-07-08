@@ -5,11 +5,11 @@ const subCategories = {
 
      'BIRYANI': ['Veg Biryani', 'Chicken Biryani', 'Goat/Mutton Biryani', "Shrimp Biryani", "Egg Biryani"],
 
-     'DESSERTS': [],
+     'DESSERTS': ["ALL"],
 
-     'BEVERAGES': [],
+     'BEVERAGES': ["ALL"],
 
-     'COLDBEVERAGES': [],
+     'COLDBEVERAGES': ["ALL"],
 };
 
 
