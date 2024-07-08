@@ -1,5 +1,4 @@
 const menuItems = [
-
   {
     id: 1,
     category: "APPETIZERS",
@@ -190,7 +189,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 22,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Chicken 65 fry",
@@ -198,7 +197,7 @@ const menuItems = [
     spice_level: "2",
 
   }, {
-    id: 21,
+    id: 23,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Bindaz Chicken 65 - Wet",
@@ -207,7 +206,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 24,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Lemon Pepper Chicken",
@@ -216,7 +215,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 25,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Karivepaku Chicken",
@@ -225,7 +224,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 26,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Lemon Pepper Chicken",
@@ -234,8 +233,8 @@ const menuItems = [
 
   },
   {
-    id: 21,
-    category: "APPETIZERS",
+    id: 27,
+    catego8ry: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Chicken Manchurian",
     price: "15.99",
@@ -243,7 +242,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 28,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Chicken Majestic",
@@ -252,7 +251,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 29,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Chilly Chicken",
@@ -261,7 +260,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 30,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Sweet Chilli Chicken",
@@ -271,7 +270,7 @@ const menuItems = [
   },
 
   {
-    id: 21,
+    id: 32,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Bindaz Tandoori Mix Chicken & Naan",
@@ -279,7 +278,7 @@ const menuItems = [
     spice_level: "2",
   },
   {
-    id: 21,
+    id: 32,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Tandoori Chicken 4*4",
@@ -288,7 +287,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 33,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Tandoori Chicken 2*2",
@@ -296,7 +295,7 @@ const menuItems = [
     spice_level: "2",
   },
   {
-    id: 21,
+    id: 34,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Bindaz Tandoori Chicken Platter",
@@ -305,7 +304,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 35,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Chicken Malai Kabab",
@@ -314,7 +313,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id:36,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Chicken Tikka Kabab",
@@ -323,7 +322,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 37,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Haryali Chicken Tikka",
@@ -332,7 +331,7 @@ const menuItems = [
 
   },
   {
-    id: 21,
+    id: 38,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Tangdi Kabab",
@@ -344,91 +343,91 @@ const menuItems = [
   //seafood 
 
   {
-    id: 21,
+    id: 39,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Chilly Fish",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 40,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Sweet Chilli Shrimp",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 41,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Schezwan Shrimp",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 42,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Lemon Pepper Shrimp",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 43,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Karivepaku Shrimp",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 44,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Fish Manchurian",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 45,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Fish Apollo",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 46,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Chilly Shrimp",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 47,
     category: "APPETIZERS",
     subCategory: "Seafood Appetizers",
     name: "Crispy Prawns 65 fry",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 48,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Veg",
     name: "Veg Schezwan Noodles",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 49,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Veg",
     name: "Veg Hakka Noodles",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 50,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Veg",
     name: "Veg Hakka Fried Rice",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 51,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Veg",
     name: "Veg Schezwan Fried Rice",
@@ -437,77 +436,77 @@ const menuItems = [
 
 
   {
-    id: 21,
+    id: 52,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Chicken Hakka Noodles",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 53,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Chicken Hakka Fried Rice",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 54,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Chicken Schezwan Noodles",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 55,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Chicken Schezwan Fried Rice",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 56,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Shrimp Hakka Noodles",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 57,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Shrimp Fried Rice",
     price: "15.99s"
   },
   {
-    id: 21,
+    id: 58,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Shrimp Schezwan Noodles",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 59,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Shrimp Schezwan Fried Rice",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 60,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Egg Hakka Noodles",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 61,
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
     name: "Egg Schezwan Noodles",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 62,
 
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
@@ -515,7 +514,7 @@ const menuItems = [
     price: "13.99"
   },
   {
-    id: 21,
+    id: 63,
 
     category: "APPETIZERS",
     subCategory: "Indo Chinese Non-Veg",
@@ -525,56 +524,56 @@ const menuItems = [
 
 
   {
-    id: 21,
+    id: 64,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Papad",
     price: "2.99"
   },
   {
-    id: 21,
+    id: 65,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Lentils Soup",
     price: "7.99"
   },
   {
-    id: 21,
+    id: 66,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Papad in Oil - 3 pieces",
     price: "2.99"
   },
   {
-    id: 21,
+    id: 67,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "White Rice",
     price: "5.99"
   },
   {
-    id: 21,
+    id: 68,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Jeera Rice",
     price: "9.99"
   },
   {
-    id: 21,
+    id: 69,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Masala Dum Rice",
     price: "9.99"
   },
   {
-    id: 21,
+    id: 70,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Onion Salad",
     price: "2.99"
   },
   {
-    id: 21,
+    id: 71,
     category: "APPETIZERS",
     subCategory: "Extras Dishes",
     name: "Plain Yogurt",
@@ -582,21 +581,21 @@ const menuItems = [
   },
 
   {
-    id: 21,
+    id: 72,
     category: "APPETIZERS",
     subCategory: "Chaats",
     name: "Chaat Papri",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 73,
     category: "APPETIZERS",
     subCategory: "Chaats",
     name: "Samosa chaat",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 74,
     category: "APPETIZERS",
     subCategory: "Chaats",
     name: "Channa chaat",
@@ -604,245 +603,245 @@ const menuItems = [
   },
 
   {
-    id: 21,
+    id: 75,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Dal Palak(spinach)",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 76,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Dal Tadka",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 77,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Andhra Spicy Dal",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 78,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Gongura Spicy Dal",
     price: "13.99"
   },
   {
-    id: 21,
+    id: 79,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Vegetable Khorma",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 80,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Mughlai Paneer",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 81,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Aloo Gobi Mutter",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 82,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Kaju Paneer",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 83,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Malai Kofta",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 84,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Navarathan Khorma",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 85,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Bhindi masala",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 86,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Chana masala",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 87,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Channa Batura",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 88,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Channa Poori",
     price: "14.99"
   },
   {
-    id: 21,
+    id:89,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Bhagara Baingan",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 90,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Dal Makhani",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 91,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Kadhai Paneer",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 92,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Saag Chana",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 93,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Methi Chaman",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 94,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Paneer Butter Masala",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 95,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Paneer Tikka Masala",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 96,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Saag Paneer",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 97,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Paneer Bhurji",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 98,
     category: "MAINCOURSE",
     subCategory: "Veg Entrees",
     name: "Muttar Paneer",
     price: "14.99"
   },
   {
-    id: 21,
+    id: 99,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Kaju Chicken Curry",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 100,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Butter Chicken",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 101,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chicken Tikka Masala",
     price: "16.99"
   },
   {
-    id: 21,
+    id: 102,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chicken Mughlai Khorma",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 103,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Kadai Chicken",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 104,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chettinad Chicken",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 105,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chicken Bhuna Masala",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 106,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Bindaz Spicy Chicken Curry",
     price: "15.99"
   },
   {
-    id: 21,
+    id:107,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Gongura Chicken Curry",
     price: "15.99"
   },
   {
-    id: 21,
+    id:105,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Ulavacharu Chicken Curry",
     price: "15.99"
   },
   {
-    id: 21,
+    id: 106,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chicken Vindaloo",
