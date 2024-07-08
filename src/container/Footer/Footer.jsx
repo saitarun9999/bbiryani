@@ -24,9 +24,10 @@ const Footer = () => {
 
         <div className="app__footer-links_contact">
           <h1 className="app__footer-headtext">Quick Links</h1>
-          <p className="p__opensans">About us</p>
-          <p className="p__opensans">Gallery</p>
-          <p className="p__opensans">Franchise</p>
+          <p className="p__opensans"><a href='#about'>About us </a></p>
+          <p className="p__opensans"><a href='#offers'>Offers </a></p>
+          <p className="p__opensans"><a href='#menu'>Menu </a></p>
+          <p className="p__opensans"><a href='#about'>Franchise </a></p>
         </div>
 
         <div className="app__footer-links_contact">
@@ -34,13 +35,13 @@ const Footer = () => {
 
           <p className="p__opensans">Monday - Friday</p>
           <p className="p__opensans">10:00 am - 11:00 pm</p>
-          <p className="p__opensans">Monday - Friday</p>
+          <p className="p__opensans">Saturday - Sunday</p>
           <p className="p__opensans">10:00 am - 11:00 pm</p>
         </div>
 
         <div className="app__footer-links_contact">
           <h1 className="app__footer-headtext">Contact Us</h1>
-          <p className="p__opensans"><FiMapPin />&nbsp; 164 Enlington Ave E,<br/> ON M4P 1G4</p>
+          <p className="p__opensans"><FiMapPin />&nbsp; 164 Enlington Ave E,<br /> ON M4P 1G4</p>
           <p className="p__opensans"><FiPhone />&nbsp; 416 - 486 - 6644</p>
         </div>
       </div>

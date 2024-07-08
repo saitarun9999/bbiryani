@@ -9,7 +9,7 @@ const subCategories = {
 
      'BEVERAGES': [],
 
-     'COLD BEVERAGES': [],
+     'COLDBEVERAGES': [],
 };
 
 

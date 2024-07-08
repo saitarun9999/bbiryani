@@ -1,0 +1,22 @@
+
+.menu-section {
+     width: 95%;
+     margin: 50px auto;
+     text-align: center;
+ }
+
+ .menu-heading-title {
+     font-size: 35px;
+     margin-bottom: 20px;
+     color: #Da281c;
+ }
+
+.image-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 10px;  /* Adjust spacing between images as needed */
+   }
+   
+   .image-grid img {
+     object-fit: cover;  /* Ensure images fill the available space */
+   }

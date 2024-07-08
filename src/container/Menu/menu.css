@@ -3,7 +3,7 @@
 
   .menu-section {
       margin: 2rem;
-      width: 85%;
+      width: 95%;
       margin: 50px auto;
       text-align: center;
   }
@@ -103,7 +103,7 @@
     align-items: center;
     margin-bottom: 20px; 
   }
-  
+/*   
   .menu-item {
     margin-left:100px; 
     flex-direction: column;
@@ -115,7 +115,22 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-}
+} */
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 10px;
+    margin-left: 30px;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .menu-item {
+    border: 1px solid #d9291c2a;
+    padding: 0px 2px;
+    text-align: left;
+  }
 
 
 /* 
@@ -136,10 +151,14 @@
       margin: 15px 0;
       font-size: 16px;
       color: #Da281c;
+      display: flex;
+      align-items: center; 
   }
+ 
 
   .menu-item h3 span {
-    margin: 30px 0;
+    margin-left: 10px;
+    justify-content: space-between;
     font-size: 17px;
     color: #000;
 }

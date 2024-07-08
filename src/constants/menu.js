@@ -1539,103 +1539,112 @@ const menuItems = [
   {
     id: 21,
     category: "DESSERTS",
+    subCategory: "",
     name: "Apricot delight",
     price: "5.99"
   },
   {
     id: 21,
     category: "DESSERTS",
+    subCategory: "",
     name: "Carrot halwa",
     price: "4.99"
   },
   {
     id: 21,
     category: "DESSERTS",
+
     name: "Coconut Jamun",
     price: "4.99"
   },
   {
     id: 21,
     category: "DESSERTS",
+
     name: "Gulab Jamun",
     price: "4.99"
   },
   {
     id: 21,
     category: "DESSERTS",
+
     name: "Gulab Jamun With Ice Cream",
     price: "6.99"
   },
   {
     id: 21,
     category: "DESSERTS",
+
     name: "Rasmalai",
     price: "5.99"
   },
   {
     id: 21,
     category: "BEVERAGES",
+
     name: "Cardamom Tea",
     price: "3.99"
   },
   {
     id: 21,
     category: "BEVERAGES",
+
     name: "Madras Coffee",
     price: "3.99"
   },
   {
     id: 21,
     category: "BEVERAGES",
+
     name: "Indian Masala Tea",
     price: "3.99"
   },
 
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Soft drinks/water",
     price: "2.49"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Kashmiri Jeera",
     price: "3.49"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Limca",
     price: "3.49"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Thumbs up",
     price: "3.49"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Mango Rupture Lassi",
     price: "4.99"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Rose Rupture Lassi",
     price: "4.99"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Sweet Lassi /Salt Lassi",
     price: "3.99"
   },
   {
     id: 21,
-    category: "COLD BEVERAGES",
+    category: "COLDBEVERAGES",
     name: "Lemon soda",
     price: "3.99"
   },

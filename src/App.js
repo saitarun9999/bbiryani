@@ -19,9 +19,9 @@ const App = () => (
     <Navbar />
     <Carousel/>
     <Header />
+    <Offers/>
     <Menu/>
     <Gallery />
-    {/* <Offers/> */}
     <Franchise/>
     <ScrollToTop />
     <Footer />

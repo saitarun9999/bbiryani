@@ -24,7 +24,7 @@ import APPETIZERS from "../assets/Menu/Appetizer.png"
 import BEVERAGES from "../assets/Menu/Beverages.png"
 import BIRYANI from "../assets/Menu/Biryani.png"
 import DESSERTS from "../assets/Menu/Dessert.png"
-import COLDBEVERAGES from "../assets/Menu/Cold Beverages.png"
+import COLDBEVERAGES from "../assets/Menu/ColdBeverages.png"
 import MAINCOURSE from "../assets/Menu/Main Course.png"
 
   
