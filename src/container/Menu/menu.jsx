@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './menu.css';
 import MenuItems from '../../constants/menu';
 import subCategories from '../../constants/subcategory';
@@ -11,12 +11,12 @@ const Menu = () => {
 
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
   const [selectedSubCategory, setSelectedSubCategory] = useState(initialSubCategory);
-  const [subCategoriesLoaded, setSubCategoriesLoaded] = useState(false);
+  const [subCategoriesLoaded, setSubCategoriesLoaded] = useState(true);
 
   const handleCategoryClick = (category) => {
-    const initialSubCategory = subCategories[category]?.[0] || 'ALL';
+    setSelectedSubCategory(null);
+    const initialSubCategory = subCategories[category]?.[0];
     setSelectedCategory(category);
-    setSelectedSubCategory(initialSubCategory);
   };
 
   const handleSubCategoryClick = (subCategory) => {
@@ -31,11 +31,15 @@ const Menu = () => {
     }
   }, [categories, subCategoriesLoaded]);
 
-  const filteredMenuItems = MenuItems.filter((item) => {
-    return selectedCategory === 'ALL' || item.category === selectedCategory;
-  }).filter((item) => {
-    return selectedSubCategory === 'ALL' || (item.subCategory && item.subCategory === selectedSubCategory);
-  });
+  const filteredMenuItems = useMemo(() => {
+    return MenuItems.filter((item) => {
+      return selectedCategory === 'ALL' || item.category === selectedCategory;
+    }).filter((item) => {
+      return selectedSubCategory === 'ALL' || item.subCategory === selectedSubCategory;
+    });
+  }, [selectedCategory, selectedSubCategory]);
+
+  
 
   return (
     <div className='menu-section' id='menu'>
