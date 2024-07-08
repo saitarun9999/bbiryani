@@ -1,6 +1,6 @@
 .app__gallery {
     flex-direction: column;
-    background: #000000;
+    background: rgba(128, 128, 128, 0.08);
     padding: 4rem 0 5rem 5rem;
 }
 

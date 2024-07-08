@@ -50,7 +50,16 @@ const Franchise = () => {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <button type="submit">Submit</button>
+          <input
+            type="text"
+            id="number"
+            name="number"
+            placeholder="Your Mobile Number"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <button type="submit" className='submit-btn'>Submit</button>
         </form>
       </div>
     </div>

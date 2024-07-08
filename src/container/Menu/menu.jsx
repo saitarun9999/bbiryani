@@ -3,15 +3,16 @@ import './menu.css';
 import MenuItems from '../../constants/menu';
 import subCategories from '../../constants/subcategory';
 import categories from '../../constants/categories';
+import images from '../../constants/images';
 
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedSubCategory, setSelectedSubCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('APPETIZERS');
+  const [selectedSubCategory, setSelectedSubCategory] = useState(subCategories[selectedCategory][0]);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
-    setSelectedSubCategory('All');
+    setSelectedSubCategory('APPETIZERS');
   };
 
   const handleSubCategoryClick = (subCategory) => {
@@ -21,8 +22,8 @@ const Menu = () => {
   return (
     <div className='menu-section' id='menu'>
       <div className="menu_heading">
-        <h4 className='menu-heading-title'>Our Special Menu</h4>
-        <p className='menu-heading-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati ipsa corporis ad odio, sunt animi, incidunt velit eveniet autem fugit, tempora tempore! Harum voluptatum provident quidem voluptates praesentium. Magni.</p>
+        <h4 className='menu-heading-title'>Menu</h4>
+        <p className='menu-heading-description'>At Bindaz Biryanis, we take pride in offering a diverse and delectable menu that promises to tantalize your taste buds. Each dish is prepared with the finest ingredients and a blend of aromatic spices, ensuring a delightful culinary experience.</p>
       </div>
       <div className="categories">
         {categories.map((category) => (
@@ -48,17 +49,22 @@ const Menu = () => {
           ))}
         </div>
       )}
-      <div className="menu-items">
-        { MenuItems
-          .filter((item) => selectedCategory === 'All' || item.category === selectedCategory)
-          .filter((item) => selectedSubCategory === 'All' || (item.subCategory && item.subCategory === selectedSubCategory))
-          .map((item) => (
-            <div className="menu-item" key={item.id} data-category={item.category}>
-              <img src={item.image} alt={item.name} />
-              <h3>{item.name}</h3>
-              <p>{item.price}</p>
-            </div>
-          ))}
+      <div className='menu-item-container'>
+      <img src={selectedCategory !== 'All' && images[selectedCategory]} height={400} />
+        <div className="menu-items">
+          {MenuItems
+            .filter((item) => selectedCategory === 'All' || item.category === selectedCategory)
+            .filter((item) => selectedSubCategory === 'All' || (item.subCategory && item.subCategory === selectedSubCategory))
+            .map((item) => (
+              <div className="" key={item.id} data-category={item.category}>
+                <div className="menu-item">
+                  <h3>{item.name} --- {item.price}</h3>
+                  
+                </div>
+              </div>
+            ))}
+        </div>
+
       </div>
     </div>
   );

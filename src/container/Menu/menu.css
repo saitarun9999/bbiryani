@@ -15,10 +15,12 @@
   }
 
   .menu-heading-description {
-      font-size: 14px;
+      font-size: 18px;
+      letter-spacing: 1.5px;
+      line-height: 30px;
       color: #000;
-      width: 40%;
-      margin: 0px auto 20px auto;
+      width: 80%;
+      margin: 0px auto 30px auto;
   }
 
   .menu-list {
@@ -47,6 +49,8 @@
       background-color: #da291c12;
       color: #Da281c;
       cursor: pointer;
+      font-weight: 600;
+      letter-spacing: 2px;
       border-radius: 5px;
       transition: background-color 0.3s;
   }
@@ -72,6 +76,8 @@
       background-color: #da291c12;
       color: #Da281c;
       cursor: pointer;
+      font-weight: 600;
+      letter-spacing: 2px;
       border-radius: 5px;
       transition: background-color 0.3s;
   }
@@ -86,13 +92,33 @@
       color: whitesmoke;
   }
 
-  .menu-items {
-      margin-top: 40px;
-      display: inline-flex;
-      justify-content: center;
-      flex-wrap: wrap;
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menu-item-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .menu-item {
+    margin-left:100px; 
+    flex-direction: column;
+    justify-content: center;
   }
 
+  .menu-items {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+/* 
   .menu-item {
       background-color: white;
       border-radius: 10px;
@@ -103,23 +129,21 @@
       height: 116px;
       position: relative;
       text-align: center;
-  }
+  } */
 
-  .menu-item img {
-      width: 60%;
-      border-radius: 10px;
-      position: absolute;
-      bottom: 50px;
-      left: 40px;
-      right: 40px;
-      margin-bottom: 20px;
-  }
 
   .menu-item h3 {
-      margin: 30px 0;
-      font-size: 18px;
+      margin: 15px 0;
+      font-size: 16px;
       color: #Da281c;
   }
+
+  .menu-item h3 span {
+    margin: 30px 0;
+    font-size: 17px;
+    color: #000;
+}
+
 
   .menu-item p {
       margin: 5px 0;
@@ -129,4 +153,10 @@
       bottom: 0px;
       left: 50px;
       right: 50px;
+  }
+
+  .menu-item-container img {
+      
+      object-fit: cover;
+      border-radius: 2%;
   }

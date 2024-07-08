@@ -25,10 +25,11 @@ const Header = () => (
       
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="About us" />
-      <h1 className="app__header-h1">Bindaz Briyanis</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0' }}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus necessitatibus totam hic accusamus accusantium rem obcaecati quae consectetur minus id doloremque, repellat officia tenetur ut maxime quibusdam voluptatibus animi.
-      <span className="p__opensans wrap" style={{ margin: '0.6rem 0', display: 'flex', color: '#FDD36A', fontWeight: '600' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem distinctio </span>
+      <p className='about-us'> About us </p>
+      {/* <h1 className="app__header-h1">Bindaz Biryanis</h1> */}
+      <img src={images.bindaz} alt="logo" />
+      <p className="p__opensans" style={{fontSize: '18px' }}> At Bindaz Biryanis, we believe that good food is best enjoyed with great company. Our warm and welcoming ambiance is perfect for family gatherings, friendly get-togethers, or a quiet meal for two. We are committed to providing exceptional service and ensuring that every visit leaves you with a smile.
+      <span className="p__opensans wrap" style={{ margin: '1rem 0', display: 'flex', color: '#Da281c', fontWeight: '600', fontSize: '20px' }}> Savor the taste of tradition and let your senses be delighted at Bindaz Biryanis. </span>
       </p>
       <button type="button" className="custom__button"><a href="#menu">Explore Menu</a></button>
     </div>

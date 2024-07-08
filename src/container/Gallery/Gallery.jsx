@@ -19,9 +19,6 @@ const Gallery = () => {
 
   return (
     <div className="app__gallery flex__center">
-      <div className="app__gallery-content">
-        <h1 className="headtext__cormorant">Our Gallery</h1>
-      </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {[images.gallery1, images.gallery2, images.gallery3, images.gallery4, images.gallery5 , images.gallery6].map((image, index) => (

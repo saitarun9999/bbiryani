@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    padding: 12px;
+    background-color: white;
+    padding: 20px;
 }
 
 .app__navbar-logo {
@@ -14,7 +14,8 @@
 }
 
 .app__navbar-logo img {
-    width: 220px;
+    width: 300px;
+    margin-left: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -33,11 +34,13 @@
     align-items: center;
     text-transform: capitalize;
     font-weight: 500;
+    color: #Da281c;
+    font-size: 20px;
     
 }
 
 .app__navbar-links li:hover {
-    color: red !important;
+    color: #Da281c !important;
 }
 
 .app__navbar-login {

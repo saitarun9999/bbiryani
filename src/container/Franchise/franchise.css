@@ -2,7 +2,7 @@
      background-image: url('/src/assets/Franchise.png');
      background-size: cover;
      background-position: center;
-     height: 50vh;
+     height: 70vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -40,6 +40,7 @@
    }
    
    button {
+    margin-top: 20px;
      padding: 10px 20px;
      border: none;
      background-color: #Da281c;

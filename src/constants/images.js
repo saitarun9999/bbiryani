@@ -18,8 +18,16 @@ import gallery4 from '../assets/gallery/4.png'
 import gallery5 from '../assets/gallery/5.png'
 import gallery6 from '../assets/gallery/6.png'
 import franchise from '../assets/Franchise.png'
+import video from "../assets/video.MP4"
+import bindaz from "../assets/bindaz.png"
+import APPETIZERS from "../assets/Menu/Appetizer.png"
+import BEVERAGES from "../assets/Menu/Beverages.png"
+import BIRYANI from "../assets/Menu/Biryani.png"
+import DESSERTS from "../assets/Menu/Dessert.png"
+import COLDBEVERAGES from "../assets/Menu/Cold Beverages.png"
+import MAINCOURSE from "../assets/Menu/Main Course.png"
 
-
+  
 
 const images = {
   logo,
@@ -39,7 +47,15 @@ const images = {
   gallery4,
   gallery5,
   gallery6,
-  franchise
+  franchise,
+  video,
+  bindaz,
+  APPETIZERS,
+  BEVERAGES,
+  BIRYANI,
+  DESSERTS,
+  COLDBEVERAGES,
+  MAINCOURSE
 };
 
 export default images;

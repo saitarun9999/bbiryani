@@ -24,13 +24,15 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       
+     <div className="app__navbar-logo">
+         <img src={images.logo} alt="app__logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}/>
+      </div>
+      
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About Us</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <div className="app__navbar-logo">
-         <img src={images.logo} alt="app__logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}/>
-      </div>
+       
         <li className="p__opensans"><a href="#franchise">Franchise</a></li>
         <li className="p__opensans"><a href="#offers">Our Offers</a></li>
         <li className="p__opensans"><a href="#footer">Contact Us</a></li>
