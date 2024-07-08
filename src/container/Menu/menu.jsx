@@ -6,8 +6,12 @@ import categories from '../../constants/categories';
 import images from '../../constants/images';
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null); // 
-  const [selectedSubCategory, setSelectedSubCategory] = useState(null);
+  const initialCategory = categories[0];
+  const initialSubCategory = subCategories[initialCategory]?.[0];
+
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
+  const [selectedSubCategory, setSelectedSubCategory] = useState(initialSubCategory);
+  const [subCategoriesLoaded, setSubCategoriesLoaded] = useState(false);
 
   const handleCategoryClick = (category) => {
     const initialSubCategory = subCategories[category]?.[0] || 'ALL';
@@ -19,18 +23,19 @@ const Menu = () => {
     setSelectedSubCategory(subCategory);
   };
 
-  const filteredMenuItems = MenuItems.filter((item) => {
-    return selectedCategory === 'ALL' || item.category === selectedCategory;
-  }).filter((item) => selectedSubCategory === 'ALL' || (item.subCategory && item.subCategory === selectedSubCategory));
-  const [subCategoriesLoaded, setSubCategoriesLoaded] = useState(true);
   useEffect(() => {
     if (categories.length > 0 && !subCategoriesLoaded) {
-      // Simulate asynchronous loading of subCategories (if needed)
       setTimeout(() => {
         setSubCategoriesLoaded(true);
-      },50); // Adjust timeout as needed
+      }, 50);
     }
   }, [categories, subCategoriesLoaded]);
+
+  const filteredMenuItems = MenuItems.filter((item) => {
+    return selectedCategory === 'ALL' || item.category === selectedCategory;
+  }).filter((item) => {
+    return selectedSubCategory === 'ALL' || (item.subCategory && item.subCategory === selectedSubCategory);
+  });
 
   return (
     <div className='menu-section' id='menu'>
