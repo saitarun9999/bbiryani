@@ -137,11 +137,11 @@
   }
 
   .app__wrapper_info{
-    padding-left: 20px !important;
+    padding-left: 10px !important;
   }
 
   .app__wrapper_info img{
-    height: 60px !important;
+    height: 40px !important;
   }
 
   .menu-item-container img{
@@ -164,6 +164,20 @@
   .section__padding {
     padding: 4rem;
   }
+  .menu-item-container img{
+    height:300px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app__wrapper_info{
+    padding-left: 5px !important;
+  }
+
+  .app__wrapper_info img{
+    height: 30px !important;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -178,11 +192,32 @@
   .p__opensans {
     font-size: 14px;
   }
+  .app__wrapper_info{
+    padding-left: 5px !important;
+  }
+
+  .app__wrapper_info img{
+    height: 30px !important;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .p__opensans {
     font-size: 12px;
+  }
+
+  .menu-item-container img{
+    height: 150px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .app__wrapper_info{
+    padding-left: 5px !important;
+  }
+
+  .app__wrapper_info img{
+    height: 30px !important;
   }
 
   .p__cormorant {

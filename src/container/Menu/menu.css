@@ -147,7 +147,7 @@
   border-radius: 2%;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
   .menu-heading-title {
       font-size: 28px;
