@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState} from 'react';
 import './menu.css';
 import MenuItems from '../../constants/menu';
 import subCategories from '../../constants/subcategory';
@@ -6,40 +6,28 @@ import categories from '../../constants/categories';
 import images from '../../constants/images';
 
 const Menu = () => {
-  const initialCategory = categories[0];
-  const initialSubCategory = subCategories[initialCategory]?.[0];
 
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
-  const [selectedSubCategory, setSelectedSubCategory] = useState(initialSubCategory);
-  const [subCategoriesLoaded, setSubCategoriesLoaded] = useState(true);
+
+  const [selectedCategory, setSelectedCategory] = useState(categories[0]);
+  const [selectedSubCategory, setSelectedSubCategory] = useState(subCategories[selectedCategory]?.[0]);
+  
 
   const handleCategoryClick = (category) => {
-    setSelectedSubCategory(null);
-    const initialSubCategory = subCategories[category]?.[0];
+    setSelectedCategory([])
     setSelectedCategory(category);
+    setSelectedSubCategory(subCategories[category]?.[0]);
   };
 
   const handleSubCategoryClick = (subCategory) => {
+    setSelectedSubCategory([])
     setSelectedSubCategory(subCategory);
   };
 
-  useEffect(() => {
-    if (categories.length > 0 && !subCategoriesLoaded) {
-      setTimeout(() => {
-        setSubCategoriesLoaded(true);
-      }, 50);
-    }
-  }, [categories, subCategoriesLoaded]);
 
-  const filteredMenuItems = useMemo(() => {
-    return MenuItems.filter((item) => {
-      return selectedCategory === 'ALL' || item.category === selectedCategory;
-    }).filter((item) => {
-      return selectedSubCategory === 'ALL' || item.subCategory === selectedSubCategory;
-    });
-  }, [selectedCategory, selectedSubCategory]);
+  const filteredItems = MenuItems?.filter((item) => {
+    return item?.category === selectedCategory && item?.subCategory === selectedSubCategory
+  })
 
-  
 
   return (
     <div className='menu-section' id='menu'>
@@ -60,7 +48,7 @@ const Menu = () => {
           </button>
         ))}
       </div>
-      {selectedCategory !== 'ALL' && subCategoriesLoaded && subCategories[selectedCategory] && (
+      {subCategories?.length !== 0 && (
         <div className='subcategories'>
           {subCategories[selectedCategory].map((subCategory) => (
             <button
@@ -78,8 +66,8 @@ const Menu = () => {
           <img src={images[selectedCategory]} alt={selectedCategory} height={400} />
         )}
         <div className='menu-items'>
-          {filteredMenuItems.map((item) => (
-            <div className='menu-item' key={item.id} data-category={item.category}>
+          {filteredItems.map((item) => (
+            <div className='menu-item' key={item.name} data-category={item.category}>
               <h3>
                 {item.name} --- <span style={{ marginLeft: "10px" }}>{item.price}</span>
               </h3>

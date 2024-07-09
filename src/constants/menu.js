@@ -205,15 +205,7 @@ const menuItems = [
     spice_level: "2",
 
   },
-  {
-    id: 24,
-    category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Lemon Pepper Chicken",
-    price: "15.99",
-    spice_level: "2",
-
-  },
+  
   {
     id: 25,
     category: "APPETIZERS",
@@ -848,7 +840,7 @@ const menuItems = [
     price: "15.99"
   },
   {
-    id: 21,
+    id: 107,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Saag Chicken",
