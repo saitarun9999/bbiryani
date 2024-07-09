@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .app__wrapper_img-reverse {
@@ -182,7 +182,7 @@
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem;
   }
   
   .p__cormorant {
@@ -207,17 +207,18 @@
   }
 
   .menu-item-container img{
-    height: 150px !important;
+    height: 290px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
   }
   .app__wrapper_info{
     padding-left: 5px !important;
   }
 
   .app__wrapper_info img{
-    height: 30px !important;
+    height:40px !important;
   }
 
   .p__cormorant {

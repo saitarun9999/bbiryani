@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram, FiMapPin, FiPhone } from 'react-icons/fi';
 import images from '../../constants/images';
 import './Footer.css';
 
 const Footer = () => {
-  const [showModal] = useState(false);
+
 
   return (
     <div className="app__footer section__padding-footer" id="footer">
@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="app__footer-links">
         <div className="app__footer-links_logo">
           <img src={images.logo} alt="footer_logo" />
-          <p className="p__opensans">&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptatibus sed&quot;</p>
+          <p className="p__opensans">&quot;Savor The Taste Of Tradition And Let Your Senses Be Delighted At Bindaz Biryanis.&quot;</p>
 
           <div className="app__footer-links_icons">
             <a href='https://www.facebook.com'><FiFacebook /></a>

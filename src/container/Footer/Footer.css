@@ -130,3 +130,7 @@
     text-decoration: underline;
   }
   
+  .app__footer-links_contact a:hover {
+    color: #Da281c;
+    font-weight: 600;
+  }
