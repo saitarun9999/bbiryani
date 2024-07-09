@@ -134,6 +134,7 @@
 
     .app__navbar-logo img {
         width: 199px;
+        padding: 0 !important;
         justify-content: space-between;
     }
 }

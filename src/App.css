@@ -136,8 +136,19 @@
     flex-direction: column;
   }
 
-  .app__wrapper_img {
-    margin: 5rem 0 0 0;
+  .app__wrapper_info{
+    padding-left: 20px !important;
+  }
+
+  .app__wrapper_info img{
+    height: 60px !important;
+  }
+
+  .menu-item-container img{
+    height: 350px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .app__wrapper_img-reverse {
