@@ -1,0 +1,50 @@
+/* src/components/Preloader.css */
+.preloader {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff;
+     z-index: 9999;
+     transition: opacity 0.3s ease;
+   }
+   
+   .preloader.hidden {
+     opacity: 0;
+     visibility: hidden;
+   }
+   
+   .logo {
+     width: 300px;
+     margin-bottom: 20px;
+   }
+   
+   .progress-circle {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .progress-ring {
+     transform: rotate(-90deg);
+   }
+   
+   .progress-ring__circle {
+     transition: stroke-dashoffset 0.45s;
+     transform: rotate(-90deg);
+     transform-origin: 50% 50%;
+   }
+   
+   .progress-text {
+     position: absolute;
+     font-size: 18px;
+     text-align: center;
+     color: #000;
+   }
+   

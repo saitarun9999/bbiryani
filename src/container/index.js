@@ -6,6 +6,7 @@ import Carousel from './Carousel/carousel';
 import Franchise from './Franchise/franchise';
 import Menu from './Menu/menu';
 import Offers from './Offers/offers';
+import Preloader  from './Preloader/preloader';
 
 export {
   Header,
@@ -15,4 +16,5 @@ export {
   Gallery,
   Franchise,
   Footer,
+  Preloader
 };
