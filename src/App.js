@@ -1,17 +1,11 @@
 import { useEffect, useState ,React } from 'react';
-
 import { Footer, Gallery, Header, Carousel } from './container';
 import { Navbar } from './components';
 import './App.css';
-
 import Menu from './container/Menu/menu';
-
 import Franchise from './container/Franchise/franchise';
-
 import ScrollToTop from './scroll-top';
-
 import Offers from './container/Offers/offers';
-
 import Preloader from './container/Preloader/preloader';
 
 const App = () => {
