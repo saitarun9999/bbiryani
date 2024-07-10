@@ -16,12 +16,3 @@ document.addEventListener('DOMContentLoaded', function() {
          });
      });
  });
-
-
- document.addEventListener('DOMContentLoaded', function() {
-    var video = document.querySelector('.responsive-video');
-    if (video) {
-      video.muted = true;
-      video.play();
-    }
-  });
