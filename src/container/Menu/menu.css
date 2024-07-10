@@ -364,7 +364,6 @@
   }
 
   .menu-items {
-    grid-template-columns: 1fr 1fr;
     margin-left: 0;
     gap: 5px;
   }
