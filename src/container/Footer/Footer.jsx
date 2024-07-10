@@ -25,7 +25,6 @@ const Footer = () => {
         <div className="app__footer-links_contact">
           <h1 className="app__footer-headtext">Quick Links</h1>
           <p className="p__opensans"><a href='#about'>About us </a></p>
-          <p className="p__opensans"><a href='#offers'>Offers </a></p>
           <p className="p__opensans"><a href='#menu'>Menu </a></p>
           <p className="p__opensans"><a href='#about'>Franchise </a></p>
         </div>

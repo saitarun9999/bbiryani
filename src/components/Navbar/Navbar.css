@@ -41,7 +41,6 @@
 
 .app__navbar-links li:hover {
     color: #Da281c !important;
-    text-decoration: underline;
 }
 
 .app__navbar-login {

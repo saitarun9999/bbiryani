@@ -25,7 +25,7 @@ const App = () => {
         <Navbar />
         <Carousel />
         <Header />
-        <Offers />
+        {/* <Offers /> */}
         <Menu />
         <Gallery />
         <Franchise />

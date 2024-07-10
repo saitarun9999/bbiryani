@@ -5,6 +5,7 @@ import './franchise.css';
 const Franchise = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [mobile, setMobile] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -55,8 +56,8 @@ const Franchise = () => {
             id="number"
             name="number"
             placeholder="Your Mobile Number"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={mobile}
+            onChange={(e) => setMobile(e.target.value)}
             required
           />
           <button type="submit" className='submit-btn'>Submit</button>

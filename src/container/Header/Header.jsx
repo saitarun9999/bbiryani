@@ -25,7 +25,7 @@ const Header = () => (
       
     </div>
     <div className="app__wrapper_info">
-      <p className='about-us'> About us </p>
+      <h4 className='about-us'> Our Story </h4>
       {/* <h1 className="app__header-h1">Bindaz Biryanis</h1> */}
       <img src={images.bindaz} alt="logo" />
       <p className="p__opensans" style={{fontSize: '18px' }}> At Bindaz Biryanis, we believe that good food is best enjoyed with great company. Our warm and welcoming ambiance is perfect for family gatherings, friendly get-togethers, or a quiet meal for two. We are committed to providing exceptional service and ensuring that every visit leaves you with a smile.
