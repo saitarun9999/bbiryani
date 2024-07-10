@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import './menu.css';
 import MenuItems from '../../constants/menu';
 import subCategories from '../../constants/subcategory';
@@ -10,7 +10,7 @@ const Menu = () => {
 
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
   const [selectedSubCategory, setSelectedSubCategory] = useState(subCategories[selectedCategory]?.[0]);
-  
+
 
   const handleCategoryClick = (category) => {
     setSelectedCategory([])
@@ -68,9 +68,14 @@ const Menu = () => {
         <div className='menu-items'>
           {filteredItems.map((item) => (
             <div className='menu-item' key={item.name} data-category={item.category}>
-              <h3>
-                {item.name} --- <span style={{ marginLeft: "10px" }}>{item.price}</span>
-              </h3>
+              <button className="subcategory-btn-menu">
+                <div className="item-details">
+                  <span className="item-name">{item.name}</span>
+
+                  <span className="item-price">{item.price}</span>
+                </div>
+              </button>
+
             </div>
           ))}
         </div>

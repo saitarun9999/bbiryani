@@ -9,7 +9,7 @@ import { Carousel } from 'react-responsive-carousel';
 const carousel = () => (
   <div id="home" className="video-container " >
     
-    <video className="responsive-video"  autoPlay loop muted>
+    <video className="responsive-video"  autoPlay loop muted playsinline>
         <source src={images.video} type="video/mp4" />
       </video>
   </div>
