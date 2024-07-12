@@ -10,6 +10,7 @@ const Menu = () => {
 
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
   const [selectedSubCategory, setSelectedSubCategory] = useState(subCategories[selectedCategory]?.[0]);
+  const [openAccordion, setOpenAccordion] = useState(null);
 
 
   const handleCategoryClick = (category) => {
@@ -48,7 +49,9 @@ const Menu = () => {
           </button>
         ))}
       </div>
-      {subCategories?.length !== 0 && (
+      {/*  desktop view starts */}
+      <div className='desktop-view'>
+       {subCategories?.length !== 0 && (
         <div className='subcategories'>
           {subCategories[selectedCategory].map((subCategory) => (
             <button
@@ -79,8 +82,37 @@ const Menu = () => {
             </div>
           ))}
         </div>
+        </div>
+        </div>
+        {/*  desktop view ends */}
+        <div className='mobile-view'>
+            <div className='accordion'>
+          {subCategories[selectedCategory]?.map((subCategory, index) => (
+            <div key={subCategory} className={`accordion-item subcategory-btn  ${openAccordion === subCategory ? 'active' : ''}`}>
+              <div className='accordion-header'   onClick={() => handleSubCategoryClick(subCategory)}>
+                {subCategory.toUpperCase()}
+              </div>
+              <div className='accordion-content'>
+                {filteredItems
+                  .filter((item) => item.subCategory === subCategory)
+                  .map((item) => (
+                    <div className='menu-item' key={item.name} data-category={item.category}>
+                      <button className="subcategory-btn-menu">
+                        <div className="item-details">
+                          <span className="item-name">{item.name}</span>
+                          <span className="item-price">{item.price}</span>
+                        </div>
+                      </button>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        </div>
+
       </div>
-    </div>
   );
 };
 
