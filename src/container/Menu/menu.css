@@ -823,13 +823,13 @@
 
 
 .accordion-content {
-  max-height: 300px; /* Adjust this value as needed */
+  max-height: 300px; 
   overflow-y: auto;
 }
 
 
 .menu-items {
-  max-height: 80vh; /* Adjust this value as needed */
+  max-height: 80vh; 
   overflow-y: auto;
 }
 

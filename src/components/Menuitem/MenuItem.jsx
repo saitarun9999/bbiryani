@@ -2,8 +2,6 @@ import React from 'react';
 
 import './MenuItem.css';
 
-import images from '../../constants/images';
-
 const MenuItem = ({ title, price, tags }) => (
   <div className="app__menuitem">
     

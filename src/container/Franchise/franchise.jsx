@@ -1,30 +1,40 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
 import './franchise.css';
+
 
 const Franchise = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [mobile, setMobile] = useState('');
+  const [phone, setPhone] = useState('');
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
+
     event.preventDefault();
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
-      from_name: name,
-      reply_to: email,
-      message_html: `Hello,<br/><br/>My name is ${name} and I am interested in joining the franchise.<br/><br/>Thank you.`
-    }, 'YOUR_USER_ID')
-      .then((response) => {
-        console.log('Email sent:', response.status, response.text);
-        alert('Email sent successfully!');
-      }, (error) => {
-        console.error('Email error:', error);
-        alert('Failed to send email. Please try again later.');
+
+    const formData = {
+      name,
+      email,
+      phone,
+    };
+
+    try {
+      const response = await fetch('https://nodebackend-gk6i.onrender.com/sendMail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
       });
 
-    // Reset form fields
-    setName('');
-    setEmail('');
+      if (response.ok) {
+        alert('Form submitted successfully!');
+        setName('');
+        setEmail('');
+        setPhone('');
+      } else {
+        alert('Failed to submit form.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again.');
+    }
   };
 
   return (
@@ -56,8 +66,8 @@ const Franchise = () => {
             id="number"
             name="number"
             placeholder="Your Mobile Number"
-            value={mobile}
-            onChange={(e) => setMobile(e.target.value)}
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
             required
           />
           <button type="submit" className='submit-btn'>Submit</button>

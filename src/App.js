@@ -5,7 +5,7 @@ import './App.css';
 import Menu from './container/Menu/menu';
 import Franchise from './container/Franchise/franchise';
 import ScrollToTop from './scroll-top';
-import Offers from './container/Offers/offers';
+// import Offers from './container/Offers/offers';
 import Preloader from './container/Preloader/preloader';
 
 const App = () => {
