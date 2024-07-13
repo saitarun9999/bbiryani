@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './franchise.css';
-
 
 const Franchise = () => {
   const [name, setName] = useState('');
@@ -8,7 +8,6 @@ const Franchise = () => {
   const [phone, setPhone] = useState('');
 
   const handleSubmit = async (event) => {
-
     event.preventDefault();
 
     const formData = {
@@ -18,13 +17,15 @@ const Franchise = () => {
     };
 
     try {
-      const response = await fetch('https://nodebackend-gk6i.onrender.com/sendMail', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+      const response = await axios.post('https://nodebackend-gk6i.onrender.com/sendMail', formData, {
+        withCredentials: true,
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
 
-      if (response.ok) {
+      if (response.status === 200) {
         alert('Form submitted successfully!');
         setName('');
         setEmail('');
