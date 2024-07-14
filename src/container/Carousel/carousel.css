@@ -1,6 +1,7 @@
 .video-container {
     position: relative;
     width: 100%;
+    color: black;
     padding-bottom: 50%;
     padding-top: 10px !important;
     height: 0;
