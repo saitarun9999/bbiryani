@@ -67,12 +67,14 @@
 }
 
 .footer__copyright {
+
     width: 100%;
     text-align: center;
     background-color: #Da281c;
     color: whitesmoke;
 }
 .footer__copyright .text{
+    margin: 0.8%;
     font-weight: 600;
 }
 

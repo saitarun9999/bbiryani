@@ -21,7 +21,6 @@ const Navbar = () => {
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">Our Story</a></li>
-        {/* <li className="p__opensans"><a href="#offers">Our Offers</a></li> */}
         <li className="p__opensans"><a href="#menu">Menu</a></li>
         <li className="p__opensans"><a href="#franchise">Franchise</a></li>
         <li className="p__opensans"><a href="#footer">Contact Us</a></li>

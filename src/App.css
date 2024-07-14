@@ -184,6 +184,13 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+
+  .app__wrapper_info {
+    background-image: url("../src/assets/watermark-mobile.png") !important;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .section__padding {
     padding: 1rem 2rem;
   }
@@ -207,6 +214,13 @@ body {
 @media screen and (max-width: 450px) {
   .p__opensans {
     font-size: 12px;
+  }
+
+  .app__wrapper_info {
+    background-image: url("../src/assets/watermark-mobile.png") !important;
+
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .menu-item-container img{

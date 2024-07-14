@@ -15,12 +15,20 @@ const Menu = () => {
   }, [selectedCategory]);
 
   const handleCategoryClick = (category) => {
-    setSelectedCategory(category);
+    if (selectedCategory === category) {
+      setSelectedCategory(null); 
+    } else {
+      setSelectedCategory(category); 
+    }
     setOpenAccordion(null); 
   };
 
   const handleSubCategoryClick = (subCategory) => {
-    setSelectedSubCategory(subCategory);
+    if(selectedSubCategory === subCategory) {
+      setSelectedSubCategory(null);
+    } else {
+      setSelectedSubCategory(subCategory);
+    }
     setOpenAccordion((prevAccordion) => (prevAccordion === subCategory ? null : subCategory));
   };
 

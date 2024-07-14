@@ -27,6 +27,8 @@ import DESSERTS from "../assets/Menu/Dessert.png"
 import COLDBEVERAGES from "../assets/Menu/ColdBeverages.png"
 import MAINCOURSE from "../assets/Menu/Main Course.png"
 
+import mobileBG from "../assets/watermark-mobile.png"
+
   
 
 const images = {
@@ -55,7 +57,8 @@ const images = {
   BIRYANI,
   DESSERTS,
   COLDBEVERAGES,
-  MAINCOURSE
+  MAINCOURSE,
+  mobileBG
 };
 
 export default images;
