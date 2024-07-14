@@ -6,17 +6,17 @@ import categories from '../../constants/categories';
 import images from '../../constants/images';
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState(categories[0]);
-  const [selectedSubCategory, setSelectedSubCategory] = useState(subCategories[selectedCategory]?.[0] || '');
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedSubCategory, setSelectedSubCategory] = useState(null);
   const [openAccordion, setOpenAccordion] = useState(null);
 
   useEffect(() => {
-    setSelectedSubCategory(subCategories[selectedCategory]?.[0] || '');
+    setSelectedSubCategory("" || '');
   }, [selectedCategory]);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
-    setOpenAccordion(null); // Reset accordion when category changes
+    setOpenAccordion(null); 
   };
 
   const handleSubCategoryClick = (subCategory) => {

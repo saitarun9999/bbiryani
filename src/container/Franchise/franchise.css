@@ -1,3 +1,7 @@
+.franchise{
+  height: 60vh;
+}
+
 .background-image {
   background-image: url('/src/assets/Franchise.png');
   background-size: cover;
@@ -11,8 +15,8 @@
 }
 
 .fcontent {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 10px 250px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 100px;
   border-radius: 10px;
 }
 
@@ -22,11 +26,18 @@ h1 {
 }
 
 p {
-  margin: 10px 0 20px;
+  margin: 0px 0 20px;
+}
+
+.fcontent .caption{
+  font-size: 20px;
 }
 
 form {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 268px;
   flex-direction: column;
   align-items: center;
 }
@@ -40,7 +51,8 @@ input {
 }
 
 button {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px 20px;
   border: none;
   background-color: #Da281c;
@@ -70,20 +82,64 @@ button:hover {
     padding: 10px 20px;
   }
 
-  .background-image{
-    height: 160vh;
-  }
+  .background-image {
+    height:65vh !important; 
+}
 
   h1 {
     font-size: 2em;
   }
 
   input {
-    width: 90%;
+    width: 61% !important;
+    height: 20px !important;
   }
 
   .headtext__cormorant1 {
     font-size: 25px;
     line-height: 60px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .background-image {
+    height:65vh !important; 
+}
+
+input {
+  width: 61% !important;
+  height: 20px !important;
+}
+
+.form{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 220px !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+  .background-image {
+    height:65vh !important; 
+  }
+
+  input {
+    width: 61% !important;
+    height: 20px !important;
+  }
+
+
+  .form{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 220px !important;
+    flex-direction: column;
+    align-items: center;
   }
 }

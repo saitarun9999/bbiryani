@@ -1,7 +1,8 @@
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 50%;
+    padding-top: 10px !important;
     height: 0;
     overflow: hidden;
   }
@@ -13,3 +14,27 @@
     height: auto;
   }
   
+  @media screen and (max-width: 768px) {
+    .video-container {
+      padding-top: 15% !important;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .video-container {
+      padding-top: 15% !important;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .video-container {
+      padding-top: 15% !important;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .video-container {
+      padding-top: 15% !important;
+    }
+    
+  }

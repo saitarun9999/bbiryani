@@ -18,8 +18,6 @@ const Franchise = () => {
 
     try {
       const response = await axios.post('https://nodebackend-gk6i.onrender.com/sendMail', formData, {
-        withCredentials: true,
-        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
@@ -40,9 +38,9 @@ const Franchise = () => {
 
   return (
     <div className="background-image" id="franchise">
-      <div className="fcontent">
+      <div className="fcontent" >
         <h4 className='headtext__cormorant1'>Franchise</h4>
-        <p>Join our franchise and be a part of our growing family.</p>
+        <p className="caption">Join our franchise and be a part of our growing family.</p>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
