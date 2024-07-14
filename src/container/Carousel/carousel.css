@@ -1,7 +1,7 @@
 .video-container {
     position: relative;
     width: 100%;
-    color: black;
+    background-color: black;
     padding-bottom: 50%;
     padding-top: 10px !important;
     height: 0;
@@ -12,6 +12,7 @@
     position: absolute;
     padding: 0;
     width: 100%;
+    background-color: black;
     height: auto;
   }
   
