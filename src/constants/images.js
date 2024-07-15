@@ -26,10 +26,13 @@ import BIRYANI from "../assets/Menu/Biryani.png"
 import DESSERTS from "../assets/Menu/Dessert.png"
 import COLDBEVERAGES from "../assets/Menu/ColdBeverages.png"
 import MAINCOURSE from "../assets/Menu/Main Course.png"
-
+import bbLogo from "../assets/bb.png"
 import mobileBG from "../assets/watermark-mobile.png"
+import logoAnim from "../assets/logoAnim.gif"
 
-  
+import trans from "../assets/transparent.gif"
+
+
 
 const images = {
   logo,
@@ -58,7 +61,10 @@ const images = {
   DESSERTS,
   COLDBEVERAGES,
   MAINCOURSE,
-  mobileBG
+  mobileBG,
+  logoAnim,
+  bbLogo,
+  trans
 };
 
 export default images;

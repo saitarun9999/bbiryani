@@ -11,6 +11,14 @@
     line-height: 20px;
     font-size: 40px;
 }
+.main_logo{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.main_logo .app__logo1{
+    margin-top: 10px;
+}
 
 
   .grid-container {

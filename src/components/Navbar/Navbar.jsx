@@ -15,7 +15,8 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="app__logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
+        <img src={images.logoAnim} alt="app__logo" className='app__logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
+        <img src={images.bbLogo} alt="app__logo1" className='app__logo1'  onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
       </div>
 
       <ul className="app__navbar-links">
