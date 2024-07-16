@@ -83,9 +83,21 @@
   transition: background-color 0.3s;
 }
 
+.subcategory-btn-mobile{
+  margin: 10px 8px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #da291c12;
+  color: #Da281c;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
 .subcategory-btn-menu {
   background-color: #ffe6e64b;
-  /* Background color */
   border: none;
   padding: 10px;
   margin: 8px;
@@ -101,11 +113,6 @@
   /* Adjust font size */
 }
 
-.subcategory-btn-menu:hover {
-  background-color: #ffe6e6;
-  color: #e60000;
-  ;
-}
 
 .item-details {
   display: inline;
@@ -116,15 +123,16 @@
 .item-name {
   flex: 1;
   color: #e60000;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1;
   align-items: start;
 }
 
 .item-price {
   flex: 0 0 auto;
   margin-left: 10px;
-  font-weight: bold;
+  font-size: 14px !important;
+  font-weight: 500 !important;
   color: #e60000;
 }
 
@@ -168,7 +176,7 @@
 }
 
 .item-details span {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .menu-item h3 {
@@ -236,11 +244,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .menu-heading-title {
     font-size: 28px;
@@ -316,11 +320,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .footer__copyright .text {
     font-weight: 600;
@@ -433,11 +433,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .footer__copyright .text {
     font-weight: 600;
@@ -551,11 +547,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .footer__copyright .text {
     font-weight: 600;
@@ -665,11 +657,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .footer__copyright .text {
     font-weight: 600;
@@ -780,11 +768,7 @@
     flex-direction: row;
     align-items: flex-start;
   }
-
-  .item-price {
-    margin-left: 0;
-    margin-top: 5px;
-  }
+ 
 
   .menu-item-container {
     display: block;

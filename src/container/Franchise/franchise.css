@@ -62,9 +62,7 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #Da281c;
-}
+
 
 .headtext__cormorant1 {
   font-family: var(--font-base);

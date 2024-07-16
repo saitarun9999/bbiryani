@@ -105,7 +105,7 @@ const Menu = () => {
                     .filter((item) => item.subCategory === subCategory)
                     .map((item) => (
                       <div className='menu-item' key={item.name} data-category={item.category}>
-                        <button className="subcategory-btn">
+                        <button className="subcategory-btn-menu">
                           <div className="item-details">
                             <span className="item-name">{item.name}</span>
                             <span className="item-price">{item.price}</span>
