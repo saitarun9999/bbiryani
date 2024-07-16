@@ -29,7 +29,8 @@ import MAINCOURSE from "../assets/Menu/Main Course.png"
 import bbLogo from "../assets/bb.png"
 import mobileBG from "../assets/watermark-mobile.png"
 import logoAnim from "../assets/logoAnim.gif"
-
+import bbAnimLogo from "../assets/bb.gif"
+import bblogo1 from "../assets/bb1.GIF"
 import trans from "../assets/transparent.gif"
 
 
@@ -64,7 +65,9 @@ const images = {
   mobileBG,
   logoAnim,
   bbLogo,
-  trans
+  trans,
+  bbAnimLogo,
+  bblogo1
 };
 
 export default images;

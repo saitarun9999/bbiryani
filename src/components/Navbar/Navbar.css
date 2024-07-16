@@ -23,11 +23,11 @@
 }
 
 .app__navbar-logo .app__logo {
-    width: 100px;
+    width: 85px;
     margin-left: 10px;
 }
 .app__navbar-logo .app__logo1 {
-    width: 150px;
+    width: 130px;
     margin-top: 10px;
 }
 
@@ -135,8 +135,18 @@
 }
 
 @media screen and (max-width: 650px) {
+
+    .app__navbar-logo .app__logo {
+        width: 65px !important;
+        margin-left: 0 !important;
+    }
+
+    .app__navbar-logo .app__logo1 {
+        width: 110px !important;
+        margin-top: 10px !important;
+    }
     .app__navbar {
-        padding: 1rem 20px;
+        padding: 0.5rem 10px 0.5rem 2px;
     }
 
     .app__navbar-login {

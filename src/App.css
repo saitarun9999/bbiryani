@@ -37,10 +37,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-image: url("../src/assets/watermark.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 100%;
   height: 80vh;
 }
@@ -183,12 +179,6 @@ body {
 
 @media screen and (max-width: 650px) {
 
-  .app__wrapper_info {
-    background-image: url("../src/assets/watermark-mobile.png") !important;
-
-    background-repeat: no-repeat;
-    background-position: center;
-  }
   .section__padding {
     padding: 1rem 2rem;
   }
@@ -214,13 +204,6 @@ body {
     font-size: 12px;
   }
 
-  .app__wrapper_info {
-    background-image: url("../src/assets/watermark-mobile.png") !important;
-
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
   .menu-item-container img{
     height: 290px !important;
     display: block;
@@ -233,7 +216,8 @@ body {
   }
 
   .app__wrapper_info img{
-    height:40px !important;
+    margin: 15px 0px !important;
+    height: 50px !important;
   }
 
   .p__cormorant {

@@ -17,13 +17,12 @@
 }
 
 .image .app__logo {
-    width: 120px !important;
+    width: 95px !important;
 }
 .image .app__logo1 {
-    width: 200px !important;
-    margin-top: 10px;
+    margin-top: 0px !important;
+    width: 150px !important;
 }
-
 
 .app__footer-links {
     width: 100%;
@@ -116,12 +115,51 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__footer-links  .image{
+        margin-left: auto;
+        margin: auto;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .image .app__logo {
+        width: 95px !important;
+    }
+    .image .app__logo1 {
+        margin-top: 0px !important;
+        width: 149px !important;
+        margin-bottom: 10px;
+    }
     .app__footer {
         padding: 0 0 2rem 0;
     }
 }
 
 @media screen and (max-width: 350px) {
+    .app__footer-links  .image{
+        margin-left: auto;
+        margin: auto;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .image .app__logo {
+        width: 95px !important;
+    }
+    .image .app__logo1 {
+        margin-top: 0px !important;
+        width: 149px !important;
+        margin-bottom: 10px;
+    }
+    .app__footer-links  .image{
+        margin-left: auto;
+        margin: auto;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+    }
     .app__footer-links_logo img:first-child {
         width: 80%;
     }
