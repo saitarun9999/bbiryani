@@ -216,10 +216,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
+
 
   .subcategory-btn-menu {
     font-size: 10px;
@@ -295,10 +296,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
+
 
   .subcategory-btn-menu {
     font-size: 10px;
@@ -410,10 +412,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
+
 
   .subcategory-btn-menu {
     font-size: 10px;
@@ -527,10 +530,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
+
 
   .subcategory-btn-menu {
     font-size: 10px;
@@ -641,10 +645,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
+
   .subcategory-btn-menu {
     font-size: 10px;
     width: 280px;
@@ -755,19 +760,11 @@
     display: block !important;
 
     .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
     }
   }
 
-  .mobile-view {
-    display: block !important;
-
-    .menu-item {
-      margin-top: 15px !important;
-      margin-bottom: 15px !important;
-    }
-  }
 
   .subcategory-btn-menu {
     font-size: 10px;
@@ -818,8 +815,6 @@
 
 
 .mobile-view {
-  /* max-height: 100vh; */
-  /* overflow-y: auto; */ 
 
 
 .accordion-content {
@@ -829,7 +824,10 @@
 
 
 .menu-items {
-  max-height: 80vh; 
+  max-height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 82%;
   overflow-y: auto;
 }
 
