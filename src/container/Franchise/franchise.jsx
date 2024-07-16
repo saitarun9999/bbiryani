@@ -17,7 +17,7 @@ const Franchise = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:8000/sendMail', formData, {
+      const response = await axios.post('https://nodebackend-gk6i.onrender.com/sendMail', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
