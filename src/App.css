@@ -172,9 +172,10 @@ body {
     padding-left: 5px !important;
   }
 
-  .app__wrapper_info img{
-    height: 30px !important;
-  }
+  .app__wrapper_info img {
+    margin: 15px 0px !important;
+    height: 50px !important;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -194,9 +195,10 @@ body {
     padding-left: 5px !important;
   }
 
-  .app__wrapper_info img{
-    height: 30px !important;
-  }
+  .app__wrapper_info img {
+    margin: 15px 0px !important;
+    height: 50px !important;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -215,10 +217,10 @@ body {
     padding-left: 5px !important;
   }
 
-  .app__wrapper_info img{
+  .app__wrapper_info img {
     margin: 15px 0px !important;
     height: 50px !important;
-  }
+}
 
   .p__cormorant {
     font-size: 19px;
