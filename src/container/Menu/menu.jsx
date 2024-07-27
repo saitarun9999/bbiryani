@@ -57,21 +57,24 @@ const Menu = () => {
       </div>
       {/* Desktop view starts */}
       <div className='desktop-view'>
-        {subCategories[selectedCategory]?.length > 0 && (
-          <div className='subcategories'>
-            {subCategories[selectedCategory].map((subCategory) => (
-              <button
-                key={subCategory}
-                className={`subcategory-btn ${selectedSubCategory === subCategory ? 'active' : ''}`}
-                onClick={() => handleSubCategoryClick(subCategory)}
-              >
-                {subCategory.toUpperCase()}
-              </button>
-            ))}
-          </div>
-        )}
+  {selectedCategory && (
+    <>
+      {subCategories[selectedCategory]?.length > 0 && (
+        <div className='subcategories'>
+          {subCategories[selectedCategory].map((subCategory) => (
+            <button
+              key={subCategory}
+              className={`subcategory-btn ${selectedSubCategory === subCategory ? 'active' : ''}`}
+              onClick={() => handleSubCategoryClick(subCategory)}
+            >
+              {subCategory.toUpperCase()}
+            </button>
+          ))}
+        </div>
+      )}
+      {selectedSubCategory && (
         <div className='menu-item-container'>
-          {selectedCategory && images[selectedCategory] && (
+          {images[selectedCategory] && (
             <img src={images[selectedCategory]} alt={selectedCategory} height={400} />
           )}
           <div className='menu-items'>
@@ -87,7 +90,11 @@ const Menu = () => {
             ))}
           </div>
         </div>
-      </div>
+      )}
+    </>
+  )}
+</div>
+
       {/* Desktop view ends */}
       <div className='mobile-view'>
         {subCategories[selectedCategory]?.length > 0 ? (
