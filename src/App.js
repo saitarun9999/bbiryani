@@ -1,12 +1,9 @@
 import { useEffect, useState ,React } from 'react';
-import { Footer, Gallery, Header, Carousel } from './container';
-import { Navbar } from './components';
 import './App.css';
-import Menu from './container/Menu/menu';
-import Franchise from './container/Franchise/franchise';
-import ScrollToTop from './scroll-top';
-// import Offers from './container/Offers/offers';
+import {  Routes, Route } from 'react-router-dom';
+import HomePage from "./container/HomePage/HomePage";
 import Preloader from './container/Preloader/preloader';
+import BlogPage from "./container/BlogPage/BlogPage";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -19,20 +16,15 @@ const App = () => {
 
   return (
     <div className="App">
+       
       <Preloader loading={loading} />
       {!loading && (
-        <div>
-        <Navbar />
-        <Carousel />
-        <Header />
-        {/* <Offers /> */}
-        <Menu />
-        <Gallery />
-        <Franchise />
-        <ScrollToTop />
-        <Footer />
-      </div>
-      )}
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/blog" element={<BlogPage />} />
+      </Routes>
+        )}
+        
     </div>
   );
 };

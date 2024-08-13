@@ -14,10 +14,10 @@ const Offers = () => {
        
       </div>
   <div class="image-grid">
-    <img src={images.about1} alt="Image 1" height="200" width="500"/>
-    <img src={images.about2} alt="Image 2" height="200" width="500"/>
-    <img src={images.about3} alt="Image 3" height="200" width="500"/>
-    <img src={images.about4} alt="Image 4" height="200" width="500"/>
+    <img src={images.about1} alt="about 1" height="200" width="500"/>
+    <img src={images.about2} alt="about 2" height="200" width="500"/>
+    <img src={images.about3} alt="about 3" height="200" width="500"/>
+    <img src={images.about4} alt="about 4" height="200" width="500"/>
 
 </div>    
           </div>

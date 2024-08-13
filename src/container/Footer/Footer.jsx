@@ -33,7 +33,7 @@ const Footer = () => {
         </div> */}
 
         <div className="app__footer-links_contact">
-          <h1 className="app__footer-headtext">Timings</h1>
+          <p className="app__footer-headtext">Timings</p>
           <p className="p__opensans"><span>Monday to Wednesday</span></p>
           <p className="p__opensans">11.30 am - 10.30 pm</p>
           <p className="p__opensans"><span>Thursday to Sunday</span></p>
@@ -42,7 +42,7 @@ const Footer = () => {
 
         <div className="app__footer-links_contact">
 
-          <h1 className="app__footer-headtext">Contact Us</h1>
+          <p className="app__footer-headtext">Contact Us</p>
           <p className="p__opensans"><FiPhone style={{ color: '#Da281c' }} />&nbsp; <span>416 - 486 - 6644</span> </p>
           <p className="p__opensans"><FiMapPin style={{ color: '#Da281c' }} />&nbsp; 164 Eglinton Avenue East,<br /> ON M4P 1G4 <br /> Toronto, Ontario, Canada</p>
         </div>

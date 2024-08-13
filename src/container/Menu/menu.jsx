@@ -39,7 +39,7 @@ const Menu = () => {
   return (
     <div className='menu-section' id='menu'>
       <div className='menu_heading'>
-        <h4 className='menu-heading-title'>Menu</h4>
+        <h1 className='menu-heading-title'>Menu</h1>
         <p className='menu-heading-description'>
           At Bindaz Biryanis, we take pride in offering a diverse and delectable menu that promises to tantalize your taste buds. Each dish is prepared with the finest ingredients and a blend of aromatic spices, ensuring a delightful culinary experience.
         </p>
