@@ -5,9 +5,8 @@ import images from '../../constants/images';
 const Preloader = ({ loading }) => {
 
   useEffect(() => {
-    let interval;
     if (loading) {
-      interval = setInterval(() => {
+       setInterval(() => {
       }, 100 / (100 / 1)); 
     }
   }, [loading]);

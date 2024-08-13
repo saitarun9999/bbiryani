@@ -2,12 +2,12 @@ import React from 'react';
 
 import SubHeading from '../SubHeading/SubHeading';
 import './Newsletter.css';
-import { useState, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { useState} from 'react';
+// import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 const Newsletter = () => {
-    const formRef = useRef();
+    // const formRef = useRef();
   const [form, setForm] = useState({
     message: '',
     });
@@ -25,9 +25,9 @@ const Newsletter = () => {
   };
 
   
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
 
     emailjs
     .send(
@@ -58,11 +58,11 @@ const Newsletter = () => {
       alert("Ahh, something went wrong. Please try again.");
     }
   );
-};
+// };
   <div className="app__newsletter">
     <div className="app__newsletter-heading">
       <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
+      <p className="headtext__cormorant">Subscribe To Our Newsletter</p>
       <p className="p__opensans">And never miss latest Updates!</p>
     </div>
     <div className="app__newsletter-input flex__center">
