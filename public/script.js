@@ -17,11 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
      });
  });
 
- window.addEventListener('scroll', function() {
-    const navbar = document.querySelector('.app__navbar');
-    if (window.scrollY > 0) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
+//  window.addEventListener('scroll', function() {
+//     const navbar = document.querySelector('.app__navbar');
+//     if (window.scrollY > 0) {
+//         navbar.classList.add('scrolled');
+//     } else {
+//         navbar.classList.remove('scrolled');
+//     }
+// });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Your code here
+    const myElement = document.getElementById('myElement');
+    if (myElement) {
+        myElement.classList.add('new-class');
     }
 });
