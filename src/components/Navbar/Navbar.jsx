@@ -21,8 +21,8 @@ const Navbar = () => {
 
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="/">Home</a></li>
-        <li className="p__opensans"><a href="#about">Our Story</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
+        <li className="p__opensans"><a href="/#about">Our Story</a></li>
+        <li className="p__opensans"><a onClick={() => {window.location.href !== "/blog" ? window.location.href = "#menu" : window.location.href = "/" + "#menu"}}>Menu</a></li>
         <li className="p__opensans"><a href="/blog">Blog</a></li>
         <li className="p__opensans"><a href="#franchise">Franchise</a></li>
         <li className="p__opensans"><a href="#footer">Contact Us</a></li>
@@ -39,7 +39,6 @@ const Navbar = () => {
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
               <li><a href="/blog" onClick={() => setToggleMenu(false)}>Blog</a></li>
               <li><a href="#franchise" onClick={() => setToggleMenu(false)}>Franchise</a></li>
-              {/* <li><a href="#offers" onClick={() => setToggleMenu(false)}>Our Offers</a></li> */}
               <li><a href="#footer" onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
           </div>

@@ -29,9 +29,11 @@ const BlogPage = () => {
                       {blog.title}
                     </h2>
                   </Link>
-                  <p className="mb-4 text-black dark:text-black line-clamp-3">
-                    {blog.description}
-                  </p>
+
+                  <div
+                    className="text-lg text-black line-clamp-3"
+                    dangerouslySetInnerHTML={{ __html: blog.description }} // Render the HTML content
+                  />
                 </div>
               </div>
             ))}
