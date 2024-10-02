@@ -17,8 +17,8 @@ const BlogDetailPage = () => {
       <section className="bg-white mt-5">
         <div className="container mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-8 md:px-8 lg:py-20 sm:py-16">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold text-[#DA281C] mb-6">{blog.title}</h1>
-            <p className="text-gray-600">{blog.date}</p>
+            <h1 className="text-4xl font-bold text-[#DA281C] mb-2">{blog.title}</h1>
+            <p className="uppercase font-semibold text-xs mb-5 text-black">{blog.date}</p>
           </div>
           <div className="mb-8">
             <img src={blog.imageUrl} className="object-cover w-full h-96 rounded-lg shadow-lg" alt={blog.title} />

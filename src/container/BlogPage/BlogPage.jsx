@@ -22,10 +22,11 @@ const BlogPage = () => {
                     alt={blog.title}
                   />
                 </Link>
+                
                 <div className="relative mt-5">
-                  <p className="uppercase font-semibold text-xs mb-2.5 text-[#DA281C]">{blog.date}</p>
+                  <p className="uppercase font-semibold text-xs mb-1 text-[#DA281C]">{blog.date}</p>
                   <Link to={`/blog/${blog.id}`} className="block mb-3 hover:underline">
-                    <h2 className="text-2xl font-bold leading-tight tracking-wide text-[#DA281C] transition-colors duration-200 hover:text-[#DA281C]">
+                    <h2 className="text-2xl font-bold leading-tight tracking-wide text-[#DA281C] transition-colors duration-200 hover:text-[#DA281C] line-clamp-2">
                       {blog.title}
                     </h2>
                   </Link>
