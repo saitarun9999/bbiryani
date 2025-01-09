@@ -30,7 +30,7 @@ const Footer = () => {
           <p className="p__opensans"><span>Monday to Wednesday</span></p>
           <p className="p__opensans">11.30 am - 10.30 pm</p>
           <p className="p__opensans"><span>Thursday to Sunday</span></p>
-          <p className="p__opensans">11.30 am - 12 pm</p>
+          <p className="p__opensans">11.30 am - 12 am</p>
         </div>
 
         <div className="app__footer-links_contact">
