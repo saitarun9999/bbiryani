@@ -6,6 +6,7 @@ import Preloader from './container/Preloader/preloader';
 import BlogPage from "./container/BlogPage/BlogPage";
 import CreateBlogPage from './container/BlogPage/create_blog';
 import BlogDetailPage from './container/BlogPage/BlogDetail';
+import MobileMenu from './container/MobileMenu/MobileMenu';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:id" element={<BlogDetailPage />} />
             <Route path="/create-blog" element={<CreateBlogPage />} />
+            <Route path="/mobile-menu" element={<MobileMenu />} />
       </Routes>
         )}
     </div>

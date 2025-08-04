@@ -40,6 +40,11 @@ const Navbar = () => {
     navigate('/blog');
   };
 
+  const handleMobileMenuClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate('/mobile-menu');
+  };
+
   const handleHomeClick = (e) => {
     e.preventDefault(); // Prevent default anchor behavior
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top smoothly
@@ -83,6 +88,9 @@ const Navbar = () => {
         </li>
         <li className="p__opensans">
           <a onClick={() => handleScrollToSection('footer')}>Contact Us</a>
+        </li>
+         <li className="p__opensans">
+          <a onClick={handleMobileMenuClick}>Mobile Menu</a>
         </li>
       </ul>
 
