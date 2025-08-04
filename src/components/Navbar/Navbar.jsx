@@ -89,9 +89,6 @@ const Navbar = () => {
         <li className="p__opensans">
           <a onClick={() => handleScrollToSection('footer')}>Contact Us</a>
         </li>
-         <li className="p__opensans">
-          <a onClick={handleMobileMenuClick}>Mobile Menu</a>
-        </li>
       </ul>
 
       <div className="app__navbar-smallscreen">
