@@ -78,7 +78,7 @@ const Navbar = () => {
           <a onClick={() => handleScrollToSection('about')}>Our Story</a>
         </li>
         <li className="p__opensans">
-          <a onClick={() => handleScrollToSection('menu')}>Menu</a>
+          <a onClick={handleMobileMenuClick}>Menu</a>
         </li>
         <li className="p__opensans">
           <a onClick={handleBlogClick}>Blog</a>
@@ -115,7 +115,7 @@ const Navbar = () => {
                 <a onClick={() => { handleScrollToSection('about'); setToggleMenu(false); }}>Our Story</a>
               </li>
               <li>
-                <a onClick={() => { handleScrollToSection('menu'); setToggleMenu(false); }}>Menu</a>
+                <a onClick={handleMobileMenuClick}>Menu</a>
               </li>
               <li>
                 <a onClick={() => { handleBlogClick(); setToggleMenu(false); }}>Blog</a>

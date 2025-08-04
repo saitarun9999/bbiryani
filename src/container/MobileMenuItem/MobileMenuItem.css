@@ -1,0 +1,50 @@
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.veg-indicator {
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.veg-indicator.veg {
+  border-color: #27ae60;
+  background-color: #27ae60;
+}
+
+.veg-indicator.non-veg {
+  border-color: #e74c3c;
+  background-color: #e74c3c;
+}
