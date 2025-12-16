@@ -1,1643 +1,2097 @@
 const menuItems = [
+  // APPETIZERS - Veg Appetizers
   {
     id: 1,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Crispy Pepper Fries / Masala fries",
-    price: "$4.99",
+    name: "Crispy Masala Fries",
+    price: "$5.99",
     spice_level: "2",
-
   },
   {
     id: 2,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Aloo Samosa - 2",
+    name: "Crispy Pepper Fries",
     price: "$5.99",
-    spice_level: "1",
-
+    spice_level: "2",
   },
   {
     id: 3,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Corn kernel Samosa - 5",
+    name: "Aloo Samosa - 2",
     price: "$5.99",
     spice_level: "1",
-
   },
   {
     id: 4,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Mix Veggie Samosa - 5",
+    name: "Corn Kernel Samosa - 5",
     price: "$5.99",
-    spice_level: "2",
-
+    spice_level: "1",
   },
   {
     id: 5,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Onion Samosa - 5",
+    name: "Mix Veggie Samosa - 5",
     price: "$5.99",
     spice_level: "2",
-
   },
   {
     id: 6,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Cut Mirchi",
-    price: "$9.99",
+    name: "Onion Samosa - 5",
+    price: "$5.99",
     spice_level: "2",
-
   },
   {
     id: 7,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Mirchi Bajji - 5 pieces",
-    price: "$10.99",
+    name: "Cut Mirchi",
+    price: "$8.99",
     spice_level: "2",
-
   },
   {
     id: 8,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Karivepaku Corn",
-    price: "$14.99",
+    name: "Mirchi Bajji - 5 pieces",
+    price: "$10.99",
     spice_level: "2",
-
   },
   {
     id: 9,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Karivepaku Gobhi fry",
-    price: "$14.99",
+    name: "Karivepaku Corn",
+    price: "$15.49",
     spice_level: "2",
-
   },
   {
     id: 10,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Karivepaku Paneer",
-    price: "$14.99",
+    name: "Karivepaku Gobhi fry",
+    price: "$15.99",
     spice_level: "2",
-
   },
   {
     id: 11,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Sweet chilli panner",
-    price: "$14.99",
-    spice_level: "1",
-
+    name: "Karivepaku Paneer",
+    price: "$15.99",
+    spice_level: "2",
   },
   {
     id: 12,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
     name: "Bindaz Paneer 65",
-    price: "$14.99",
+    price: "$15.99",
     spice_level: "2",
-
   },
   {
     id: 13,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
     name: "Crispy Baby Corn fry",
-    price: "$13.99",
+    price: "$15.49",
     spice_level: "2",
-
   },
   {
     id: 14,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
     name: "Gobhi Manchurian fry",
-    price: "$13.99",
+    price: "$15.99",
     spice_level: "2",
-
   },
   {
     id: 15,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Chilli Paneer",
-    price: "$14.99",
-    spice_level: "2",
-
+    name: "Chilly Paneer",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
     id: 16,
     category: "APPETIZERS",
-    subCategory: "Veg Tandoor / Kababs",
-    name: "Bindaz Tandoori Paneer Platter",
-    price: "$29.99",
-    spice_level: "2",
-
+    subCategory: "Veg Appetizers",
+    name: "Malai Broccoli",
+    price: "$15.99",
+    spice_level: "1",
   },
   {
     id: 17,
     category: "APPETIZERS",
-    subCategory: "Veg Tandoor / Kababs",
-    name: "Achari Paneer Tikka",
-    price: "$15.99",
-    spice_level: "3",
-
+    subCategory: "Veg Appetizers",
+    name: "Cripy Corn Kernals",
+    price: "$9.99",
+    spice_level: "2",
   },
   {
     id: 18,
     category: "APPETIZERS",
-    subCategory: "Veg Tandoor / Kababs",
-    name: "Haryali Paneer Tikka",
-    price: "$15.99",
-    spice_level: "2",
-
+    subCategory: "Veg Appetizers",
+    name: "Onion Rings",
+    price: "$9.99",
+    spice_level: "1",
   },
   {
     id: 19,
     category: "APPETIZERS",
-    subCategory: "Veg Tandoor / Kababs",
-    name: "Malai Paneer Kabab",
+    subCategory: "Veg Appetizers",
+    name: "Soya Chops (Malai/Achari)",
     price: "$15.99",
-    spice_level: "1",
-
+    spice_level: "2",
   },
   {
     id: 20,
     category: "APPETIZERS",
-    subCategory: "Veg Tandoor / Kababs",
-    name: "Paneer Tikka Kabab",
-    price: "$15.99",
+    subCategory: "Veg Appetizers",
+    name: "Veggie Momos (Butter/Plain/Malai/Tandoori)",
+    price: "$14.99",
     spice_level: "2",
-
   },
   {
     id: 21,
     category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Schezwan Chicken",
-    price: "$15.99",
+    subCategory: "Veg Appetizers",
+    name: "Veg Chilli Pizza",
+    price: "$12.99",
     spice_level: "2",
-
   },
   {
     id: 22,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Bindaz Special Veg Pizza",
+    price: "$14.99",
+    spice_level: "2",
+  },
+  {
+    id: 23,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Veg Balls",
+    price: "$12.99",
+    spice_level: "2",
+  },
+  {
+    id: 24,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Veg Manchuria",
+    price: "$15.99",
+    spice_level: "3",
+  },
+  {
+    id: 25,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Baby Corn Majestic",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 26,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Baby Corn Manchuria",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 27,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Paneer Majestic",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 28,
+    category: "APPETIZERS",
+    subCategory: "Veg Appetizers",
+    name: "Paneer Manchurian",
+    price: "$15.99",
+    spice_level: "2",
+  },
+
+  // APPETIZERS - Chaats
+  {
+    id: 29,
+    category: "APPETIZERS",
+    subCategory: "Chaats",
+    name: "Samosa chaat",
+    price: "$9.99",
+    spice_level: "2",
+  },
+
+  // APPETIZERS - Chicken Appetizers
+  {
+    id: 30,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Chicken 65 fry",
     price: "$15.99",
     spice_level: "2",
-
-  }, {
-    id: 23,
+  },
+  {
+    id: 31,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Bindaz Chicken 65 - Wet",
-    price: "$15.99",
+    price: "$16.99",
     spice_level: "2",
-
-  },
-  
-  {
-    id: 25,
-    category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Karivepaku Chicken",
-    price: "$15.99",
-    spice_level: "2",
-
   },
   {
-    id: 26,
+    id: 32,
     category: "APPETIZERS",
     subCategory: "Chicken Appetizers",
     name: "Lemon Pepper Chicken",
-    price: "$15.99",
+    price: "$16.49",
     spice_level: "2",
-
-  },
-  {
-    id: 27,
-    catego8ry: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Chicken Manchurian",
-    price: "$15.99",
-    spice_level: "2",
-
-  },
-  {
-    id: 28,
-    category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Chicken Majestic",
-    price: "$15.99",
-    spice_level: "2",
-
-  },
-  {
-    id: 29,
-    category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Chilly Chicken",
-    price: "$15.99",
-    spice_level: "2",
-
-  },
-  {
-    id: 30,
-    category: "APPETIZERS",
-    subCategory: "Chicken Appetizers",
-    name: "Sweet Chilli Chicken",
-    price: "$15.99",
-    spice_level: "2",
-
-  },
-
-  {
-    id: 32,
-    category: "APPETIZERS",
-    subCategory: "Non-Veg Tandoori/Kababs",
-    name: "Bindaz Tandoori Mix Chicken & Naan",
-    price: "$19.99",
-    spice_level: "2",
-  },
-  {
-    id: 32,
-    category: "APPETIZERS",
-    subCategory: "Non-Veg Tandoori/Kababs",
-    name: "Tandoori Chicken 4*4",
-    price: "$29.99",
-    spice_level: "2",
-
   },
   {
     id: 33,
     category: "APPETIZERS",
-    subCategory: "Non-Veg Tandoori/Kababs",
-    name: "Tandoori Chicken 2*2",
-    price: "$15.99",
+    subCategory: "Chicken Appetizers",
+    name: "Karivepaku Chicken",
+    price: "$16.49",
     spice_level: "2",
   },
   {
     id: 34,
     category: "APPETIZERS",
-    subCategory: "Non-Veg Tandoori/Kababs",
-    name: "Bindaz Tandoori Chicken Platter",
-    price: "$35.99",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Manchurian",
+    price: "$15.99",
     spice_level: "2",
-
   },
   {
     id: 35,
     category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chilly Chicken",
+    price: "$15.99",
+    spice_level: "3",
+  },
+  {
+    id: 36,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Malai Chicken",
+    price: "$16.99",
+    spice_level: "1",
+  },
+  {
+    id: 37,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Hyderabad Chicken Pakoda (Bone-In)",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 38,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Hyderabad Cashew Chicken Pakoda (Bone-In)",
+    price: "$17.99",
+    spice_level: "2",
+  },
+  {
+    id: 39,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Lollipops (Dry/Wet)",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 40,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Wings (Chilli/Buffalo/Regular) (Dry/Wet)",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 41,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Momos (Chilli/Plain/Malai/Tandoori)",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 42,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Chilli Pizza",
+    price: "$13.99",
+    spice_level: "3",
+  },
+  {
+    id: 43,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Bindaz Special Chicken Pizza",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 44,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Majestic Dry",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 45,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chicken Majestic Wet",
+    price: "$16.99",
+    spice_level: "2",
+  },
+  {
+    id: 46,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Bindaz BEZ Hot Chicken",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 47,
+    category: "APPETIZERS",
+    subCategory: "Chicken Appetizers",
+    name: "Chilli Egg",
+    price: "$15.99",
+    spice_level: "2",
+  },
+
+  // APPETIZERS - Non-Veg Tandoori/Kababs
+  {
+    id: 48,
+    category: "APPETIZERS",
+    subCategory: "Non-Veg Tandoori/Kababs",
+    name: "Tandoori Chicken Full",
+    price: "$29.99",
+    spice_level: "2",
+  },
+  {
+    id: 49,
+    category: "APPETIZERS",
+    subCategory: "Non-Veg Tandoori/Kababs",
+    name: "Tandoori Chicken 1/2",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 50,
+    category: "APPETIZERS",
+    subCategory: "Non-Veg Tandoori/Kababs",
+    name: "Bindaz Tandoori Chicken Platter",
+    price: "$35.99",
+    spice_level: "2",
+  },
+  {
+    id: 51,
+    category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Chicken Malai Kabab",
     price: "$16.99",
-    spice_level: "2",
-
+    spice_level: "1",
   },
   {
-    id:36,
+    id: 52,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Chicken Tikka Kabab",
     price: "$16.99",
     spice_level: "2",
-
   },
   {
-    id: 37,
+    id: 53,
     category: "APPETIZERS",
     subCategory: "Non-Veg Tandoori/Kababs",
     name: "Haryali Chicken Tikka",
     price: "$16.99",
     spice_level: "2",
-
-  },
-  {
-    id: 38,
-    category: "APPETIZERS",
-    subCategory: "Non-Veg Tandoori/Kababs",
-    name: "Tangdi Kabab",
-    price: "$15.99",
-    spice_level: "2",
-
-  },
-
-  //seafood 
-
-  {
-    id: 39,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Chilly Fish",
-    price: "$16.99"
-  },
-  {
-    id: 40,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Sweet Chilli Shrimp",
-    price: "$16.99"
-  },
-  {
-    id: 41,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Schezwan Shrimp",
-    price: "$16.99"
-  },
-  {
-    id: 42,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Lemon Pepper Shrimp",
-    price: "$16.99"
-  },
-  {
-    id: 43,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Karivepaku Shrimp",
-    price: "$16.99"
-  },
-  {
-    id: 44,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Fish Manchurian",
-    price: "$16.99"
-  },
-  {
-    id: 45,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Fish Apollo",
-    price: "$16.99"
-  },
-  {
-    id: 46,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Chilly Shrimp",
-    price: "$16.99"
-  },
-  {
-    id: 47,
-    category: "APPETIZERS",
-    subCategory: "Seafood Appetizers",
-    name: "Crispy Prawns 65 fry",
-    price: "$16.99"
-  },
-  {
-    id: 48,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Veg",
-    name: "Veg Schezwan Noodles",
-    price: "$13.99"
-  },
-  {
-    id: 49,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Veg",
-    name: "Veg Hakka Noodles",
-    price: "$13.99"
-  },
-  {
-    id: 50,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Veg",
-    name: "Veg Hakka Fried Rice",
-    price: "$13.99"
-  },
-  {
-    id: 51,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Veg",
-    name: "Veg Schezwan Fried Rice",
-    price: "$13.99"
-  },
-
-
-  {
-    id: 52,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Chicken Hakka Noodles",
-    price: "$14.99"
-  },
-  {
-    id: 53,
-    category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Chicken Hakka Fried Rice",
-    price: "$14.99"
   },
   {
     id: 54,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Chicken Schezwan Noodles",
-    price: "$14.99"
+    subCategory: "Non-Veg Tandoori/Kababs",
+    name: "Tangdi Kabab",
+    price: "$16.99",
+    spice_level: "2",
   },
+
+  // APPETIZERS - Veg Tandoor/Kababs
   {
     id: 55,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Chicken Schezwan Fried Rice",
-    price: "$14.99"
+    subCategory: "Veg Tandoor/Kababs",
+    name: "Bindaz Tandoori Paneer Platter",
+    price: "$30.99",
+    spice_level: "2",
   },
   {
     id: 56,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Shrimp Hakka Noodles",
-    price: "$15.99"
+    subCategory: "Veg Tandoor/Kababs",
+    name: "Achari Paneer Tikka",
+    price: "$16.99",
+    spice_level: "3",
   },
   {
     id: 57,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Shrimp Fried Rice",
-    price: "$15.99s"
+    subCategory: "Veg Tandoor/Kababs",
+    name: "Haryali Paneer Tikka",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 58,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Shrimp Schezwan Noodles",
-    price: "$15.99"
+    subCategory: "Veg Tandoor/Kababs",
+    name: "Malai Paneer Kabab",
+    price: "$16.99",
+    spice_level: "1",
   },
   {
     id: 59,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Shrimp Schezwan Fried Rice",
-    price: "$15.99"
+    subCategory: "Veg Tandoor/Kababs",
+    name: "Paneer Tikka Kabab",
+    price: "$15.99",
+    spice_level: "2",
   },
+
+  // APPETIZERS - Seafood Appetizers
   {
     id: 60,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Egg Hakka Noodles",
-    price: "$13.99"
+    subCategory: "Seafood Appetizers",
+    name: "Chilly Fish",
+    price: "$16.99",
+    spice_level: "3",
   },
   {
     id: 61,
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Egg Schezwan Noodles",
-    price: "$14.99"
+    subCategory: "Seafood Appetizers",
+    name: "Finger Fish",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 62,
-
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Egg Fried Rice",
-    price: "$13.99"
+    subCategory: "Seafood Appetizers",
+    name: "Fish Apollo",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 63,
-
     category: "APPETIZERS",
-    subCategory: "Indo Chinese Non-Veg",
-    name: "Egg Schezwan Fried Rice",
-    price: "$14.99"
+    subCategory: "Seafood Appetizers",
+    name: "Chilly Shrimp",
+    price: "$16.99",
+    spice_level: "3",
   },
-
-
   {
     id: 64,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Papad",
-    price: "$2.99"
+    subCategory: "Seafood Appetizers",
+    name: "Crispy Prawns 65 fry",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 65,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Lentils Soup",
-    price: "$7.99"
+    subCategory: "Seafood Appetizers",
+    name: "Butter Garlic Prawns",
+    price: "$17.99",
+    spice_level: "2",
   },
   {
     id: 66,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Papad in Oil - 3 pieces",
-    price: "$2.99"
+    subCategory: "Seafood Appetizers",
+    name: "Lemon Pepper Shrimp",
+    price: "$17.99",
+    spice_level: "2",
   },
   {
     id: 67,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "White Rice",
-    price: "$5.99"
+    subCategory: "Seafood Appetizers",
+    name: "Lemon Pepper Fish",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 68,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Jeera Rice",
-    price: "$9.99"
+    subCategory: "Seafood Appetizers",
+    name: "Prawn Majestic",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 69,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Masala Dum Rice",
-    price: "$9.99"
+    subCategory: "Seafood Appetizers",
+    name: "Prawn Manchurian",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 70,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Onion Salad",
-    price: "$2.99"
+    subCategory: "Seafood Appetizers",
+    name: "Bindaz BEZ Hot Shrimp",
+    price: "$17.99",
+    spice_level: "2",
   },
+
+  // APPETIZERS - Indo Chinese Veg
   {
     id: 71,
     category: "APPETIZERS",
-    subCategory: "Extras Dishes",
-    name: "Plain Yogurt",
-    price: "$3.99"
+    subCategory: "Indo Chinese Veg",
+    name: "Veg Schezwan Noodles",
+    price: "$14.99",
+    spice_level: "3",
   },
-
   {
     id: 72,
     category: "APPETIZERS",
-    subCategory: "Chaats",
-    name: "Chaat Papri",
-    price: "$13.99"
+    subCategory: "Indo Chinese Veg",
+    name: "Veg Hakka Noodles",
+    price: "$14.99",
+    spice_level: "1",
   },
   {
     id: 73,
     category: "APPETIZERS",
-    subCategory: "Chaats",
-    name: "Samosa chaat",
-    price: "$13.99"
+    subCategory: "Indo Chinese Veg",
+    name: "Veg Hakka Fried Rice",
+    price: "$14.99",
+    spice_level: "1",
   },
   {
     id: 74,
     category: "APPETIZERS",
-    subCategory: "Chaats",
-    name: "Channa chaat",
-    price: "$13.99"
+    subCategory: "Indo Chinese Veg",
+    name: "Veg Schezwan Fried Rice",
+    price: "$14.99",
+    spice_level: "3",
   },
-
   {
     id: 75,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Dal Palak(spinach)",
-    price: "$13.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Veg",
+    name: "Street Style Noodles/ Fried Rice",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
     id: 76,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Dal Tadka",
-    price: "$13.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Veg",
+    name: "Gobhi Fried Rice",
+    price: "$15.99",
+    spice_level: "2",
   },
   {
     id: 77,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Andhra Spicy Dal",
-    price: "$13.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Veg",
+    name: "Bindaz Special Veg Fried Rice",
+    price: "$16.99",
+    spice_level: "2",
   },
   {
     id: 78,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Gongura Spicy Dal",
-    price: "$13.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Veg",
+    name: "Street Style Manchurian Veg Fried Rice",
+    price: "$15.99",
+    spice_level: "2",
   },
   {
     id: 79,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Vegetable Khorma",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Veg",
+    name: "Street Style Manchurian Veg Noodles",
+    price: "$15.99",
+    spice_level: "2",
   },
+
+  // APPETIZERS - Indo Chinese Non-Veg
   {
     id: 80,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Mughlai Paneer",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Chicken Hakka Noodles",
+    price: "$14.99",
+    spice_level: "1",
   },
   {
     id: 81,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Aloo Gobi Mutter",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Chicken Hakka Fried Rice",
+    price: "$15.99",
+    spice_level: "1",
   },
   {
     id: 82,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Kaju Paneer",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Chicken Schezwan Noodles",
+    price: "$14.99",
+    spice_level: "3",
   },
   {
     id: 83,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Malai Kofta",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Chicken Schezwan Fried Rice",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
     id: 84,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Navarathan Khorma",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Shrimp Hakka Noodles",
+    price: "$15.99",
+    spice_level: "1",
   },
   {
     id: 85,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Bhindi masala",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Shrimp Fried Rice",
+    price: "$15.99",
+    spice_level: "2",
   },
   {
     id: 86,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Chana masala",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Street Style Noodles/ Fried Rice",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
     id: 87,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Channa Batura",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Shrimp Schezwan Noodles",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
     id: 88,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Channa Poori",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Shrimp Schezwan Fried Rice",
+    price: "$15.99",
+    spice_level: "3",
   },
   {
-    id:89,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Bhagara Baingan",
-    price: "$14.99"
+    id: 89,
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Egg Hakka Noodles",
+    price: "$14.99",
+    spice_level: "1",
   },
   {
     id: 90,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Dal Makhani",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Egg Schezwan Noodles",
+    price: "$14.99",
+    spice_level: "3",
   },
   {
     id: 91,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Kadhai Paneer",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Egg Fried Rice",
+    price: "$14.99",
+    spice_level: "2",
   },
   {
     id: 92,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Saag Chana",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Egg Schezwan Fried Rice",
+    price: "$14.99",
+    spice_level: "3",
   },
   {
     id: 93,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Methi Chaman",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Indo Chinese Non-Veg",
+    name: "Bindaz Special Non Veg Fried Rice",
+    price: "$15.99",
+    spice_level: "2",
   },
+
+  // APPETIZERS - Kids Menu
   {
     id: 94,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Paneer Butter Masala",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Kids Menu",
+    name: "Chicken Nuggets",
+    price: "$9.99",
+    spice_level: "1",
   },
   {
     id: 95,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Paneer Tikka Masala",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Kids Menu",
+    name: "Sweet Potato Fries",
+    price: "$4.99",
+    spice_level: "1",
   },
+
+  // APPETIZERS - Extras Dishes
   {
     id: 96,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Saag Paneer",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Papad",
+    price: "$2.99",
   },
   {
     id: 97,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Paneer Bhurji",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Papad in Oil - 3 pieces",
+    price: "$2.99",
   },
   {
     id: 98,
-    category: "MAINCOURSE",
-    subCategory: "Veg Entrees",
-    name: "Muttar Paneer",
-    price: "$14.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "White Rice",
+    price: "$5.99",
   },
   {
     id: 99,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Kaju Chicken Curry",
-    price: "$16.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Jeera Rice",
+    price: "$9.99",
+    spice_level: "2",
   },
   {
     id: 100,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Butter Chicken",
-    price: "$16.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Masala Dum Rice",
+    price: "$9.99",
+    spice_level: "2",
   },
   {
     id: 101,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Chicken Tikka Masala",
-    price: "$16.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Onion Salad",
+    price: "$2.99",
   },
   {
     id: 102,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Chicken Mughlai Khorma",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Plain Yogurt",
+    price: "$3.99",
   },
   {
     id: 103,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Kadai Chicken",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Extra Raitha",
+    price: "$1.49",
   },
   {
     id: 104,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Chettinad Chicken",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Extra Salan",
+    price: "$1.49",
+    spice_level: "2",
   },
   {
     id: 105,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Chicken Bhuna Masala",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Boiled Eggs - 2",
+    price: "$3.99",
   },
   {
     id: 106,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Bindaz Spicy Chicken Curry",
-    price: "$15.99"
+    category: "APPETIZERS",
+    subCategory: "Extras Dishes",
+    name: "Osmania Biscuit-2",
+    price: "$1.00",
   },
-  {
-    id:107,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Gongura Chicken Curry",
-    price: "$15.99"
-  },
-  {
-    id:105,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Ulavacharu Chicken Curry",
-    price: "$15.99"
-  },
-  {
-    id: 106,
-    category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Chicken Vindaloo",
-    price: "$15.99"
-  },
+
+  // MAIN COURSE - Veg Entrees
   {
     id: 107,
     category: "MAINCOURSE",
-    subCategory: "Non-Veg Entrees",
-    name: "Saag Chicken",
-    price: "$15.99"
+    subCategory: "Veg Entrees",
+    name: "Dal Palak (spinach)",
+    price: "$14.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 108,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Dal Tadka",
+    price: "$14.49",
+    spice_level: "2",
+  },
+  {
+    id: 109,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Andhra Spicy Dal",
+    price: "$14.49",
+    spice_level: "3",
+  },
+  {
+    id: 110,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Gongura Spicy Dal",
+    price: "$14.99",
+    spice_level: "3",
+  },
+  {
+    id: 111,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Vegetable Khorma",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 112,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Mughlai Paneer",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 113,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Aloo Gobi Mutter",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 114,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Kaju Paneer",
+    price: "$16.49",
+    spice_level: "1",
+  },
+  {
+    id: 115,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Malai Kofta",
+    price: "$15.99",
+    spice_level: "1",
+  },
+  {
+    id: 116,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Navarathan Khorma",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 117,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Bhindi masala",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 118,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Andhra Veg Curry",
+    price: "$15.99",
+    spice_level: "3",
+  },
+  {
+    id: 119,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Tomato Cashew Curry",
+    price: "$16.99",
+    spice_level: "1",
+  },
+  {
+    id: 120,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Channa Batura",
+    price: "$16.49",
+    spice_level: "2",
+  },
+  {
+    id: 121,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Channa Poori",
+    price: "$16.49",
+    spice_level: "2",
+  },
+  {
+    id: 122,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Bhagara Baingan",
+    price: "$14.99",
+    spice_level: "2",
+  },
+  {
+    id: 123,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Dal Makhani",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 124,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Kadhai Paneer",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 125,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Saag Chana",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 126,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Paneer Butter Masala",
+    price: "$16.99",
+    spice_level: "1",
+  },
+  {
+    id: 127,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Paneer Tikka Masala",
+    price: "$16.99",
+    spice_level: "1",
+  },
+  {
+    id: 128,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Saag Paneer",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 129,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Muttar Paneer",
+    price: "$15.49",
+    spice_level: "1",
+  },
+  {
+    id: 130,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Chana masala",
+    price: "$14.99",
+    spice_level: "2",
+  },
+  {
+    id: 131,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Gongura Paneer Curry",
+    price: "$16.99",
+    spice_level: "3",
+  },
+  {
+    id: 132,
+    category: "MAINCOURSE",
+    subCategory: "Veg Entrees",
+    name: "Hyderabad Paneer Curry",
+    price: "$16.99",
+    spice_level: "3",
+  },
+
+  // MAIN COURSE - Non-Veg Entrees
+  {
+    id: 133,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
-    name: "Chicken Mughlai",
-    price: "$15.99"
+    name: "Kaju Chicken Curry",
+    price: "$17.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 134,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Butter Chicken",
+    price: "$17.99",
+    spice_level: "1",
+  },
+  {
+    id: 135,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Chicken Tikka Masala",
+    price: "$16.99",
+    spice_level: "1",
+  },
+  {
+    id: 136,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Chicken Mughlai Khorma",
+    price: "$16.49",
+    spice_level: "1",
+  },
+  {
+    id: 137,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Kadai Chicken",
+    price: "$16.49",
+    spice_level: "2",
+  },
+  {
+    id: 138,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Chettinad Chicken",
+    price: "$16.49",
+    spice_level: "2",
+  },
+  {
+    id: 139,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Chicken Bhuna Masala",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 140,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Bindaz Spicy Chicken Curry",
+    price: "$16.45",
+    spice_level: "3",
+  },
+  {
+    id: 141,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Gongura Chicken Curry",
+    price: "$15.99",
+    spice_level: "3",
+  },
+  {
+    id: 142,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Ulavacharu Chicken Curry",
+    price: "$16.49",
+    spice_level: "3",
+  },
+  {
+    id: 143,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Chicken Vindaloo",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 144,
+    category: "MAINCOURSE",
+    subCategory: "Non-Veg Entrees",
+    name: "Saag Chicken",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 145,
     category: "MAINCOURSE",
     subCategory: "Non-Veg Entrees",
     name: "Chicken Tikka Saag",
-    price: "$16.99"
+    price: "$15.99",
+    spice_level: "2",
   },
+
+  // MAIN COURSE - Egg Entrees
   {
-    id: 21,
+    id: 146,
     category: "MAINCOURSE",
     subCategory: "Egg Entrees",
     name: "Egg Masala Curry",
-    price: "$16.99"
+    price: "$15.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 147,
     category: "MAINCOURSE",
     subCategory: "Egg Entrees",
     name: "Haryana Egg Curry",
-    price: "$16.99"
+    price: "$14.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 148,
     category: "MAINCOURSE",
     subCategory: "Egg Entrees",
     name: "Nizami Special Egg Curry",
-    price: "$16.99"
+    price: "$15.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 149,
     category: "MAINCOURSE",
     subCategory: "Egg Entrees",
-    name: "Egg Bhurji",
-    price: "$16.99"
+    name: "Hyderabad Egg Curry",
+    price: "$15.99",
+    spice_level: "3",
   },
+
+  // MAIN COURSE - Seafood Entrees
   {
-    id: 21,
+    id: 150,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Fish Masala Curry",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
-    category: "MAINCOURSE",
-    subCategory: "Seafood Entrees",
-    name: "Gongura Spicy Fish Curry",
-    price: "$16.99"
-  },
-  {
-    id: 21,
+    id: 151,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Chettinad Fish Curry",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 152,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Prawn Butter Masala",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 153,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Kadai Prawn",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 154,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Malai Prawn",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
-    category: "MAINCOURSE",
-    subCategory: "Seafood Entrees",
-    name: "Prawn Chettinad",
-    price: "$16.99"
-  },
-  {
-    id: 21,
+    id: 155,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Gongura Prawns",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 156,
     category: "MAINCOURSE",
     subCategory: "Seafood Entrees",
     name: "Prawn Masala",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "1",
   },
+
+  // MAIN COURSE - Goat Entrees
   {
-    id: 21,
-    category: "MAINCOURSE",
-    subCategory: "Seafood Entrees",
-    name: "Prawn Bhuna Masala",
-    price: "$16.99"
-  },
-  {
-    id: 21,
+    id: 157,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Kadai Goat",
-    price: "$16.99"
+    price: "$18.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 158,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Goat Malai",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 159,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Bindaz Spicy Goat Curry",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 160,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Goat Bhuna Masala",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 161,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Goat Rogan Josh",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 162,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Gongura Goat Curry (sorel leaf)",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
   {
-    id: 21,
-    category: "MAINCOURSE",
-    subCategory: "Goat Entrees",
-    name: "Chettinad Goat Curry",
-    price: "$16.99"
-  },
-  {
-    id: 21,
+    id: 163,
     category: "MAINCOURSE",
     subCategory: "Goat Entrees",
     name: "Ulavacharu Goat Curry",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
+
+  // MAIN COURSE - Lamb Entrees
   {
-    id: 21,
+    id: 164,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Lamb Khorma",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 165,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Lamb Rogan Josh",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 166,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Lamb Vindaloo",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 167,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Lamb Bhuna Masala",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 168,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Lamb Saag",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 169,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Kadai Lamb",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 170,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Bindaz Spicy Lamb Curry",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 171,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Gongura Lamb Curry",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 172,
     category: "MAINCOURSE",
     subCategory: "Lamb Entrees",
     name: "Ulavacharu Lamb Curry",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "3",
   },
+
+  // MAIN COURSE - Naans & Rotis
   {
-    id: 21,
+    id: 173,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Plain Naan",
-    price: "$2.49"
+    price: "$2.49",
   },
   {
-    id: 21,
+    id: 174,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Roti",
-    price: "$2.49"
+    price: "$2.49",
   },
   {
-    id: 21,
+    id: 175,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Butter Roti",
-    price: "$2.99"
+    price: "$2.99",
   },
   {
-    id: 21,
+    id: 176,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Poori Plain",
-    price: "$3.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 177,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Plain Bathura",
-    price: "$3.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 178,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Methi Roti",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 179,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Laccha Paratha",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 180,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Onion Kulcha",
-    price: "$4.999"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 181,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Methi Paratha",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
+    id: 182,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Aloo Paratha",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
+    id: 183,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Pudina Paratha",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
+    id: 184,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Ajwain Paratha",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
+    id: 185,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Butter Naan",
-    price: "$3.49"
+    price: "$3.49",
   },
   {
-    id: 21,
+    id: 186,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Chilli Naan",
-    price: "$4.99"
+    price: "$4.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 187,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Garlic Naan",
-    price: "$4.99"
+    price: "$4.49",
   },
   {
-    id: 21,
+    id: 188,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Cheese Naan",
-    price: "$6.99"
+    price: "$6.99",
   },
   {
-    id: 21,
-    category: "MAINCOURSE",
-    subCategory: "Naans & Rotis",
-    name: "Paneer Naan",
-    price: "$6.99"
-  },
-  {
-    id: 21,
+    id: 189,
     category: "MAINCOURSE",
     subCategory: "Naans & Rotis",
     name: "Cheese Garlic Naan",
-    price: "$7.99"
+    price: "$7.99",
   },
+
+  // MAIN COURSE - Wraps
   {
-    id: 21,
+    id: 190,
     category: "MAINCOURSE",
-    subCategory: "Naans & Rotis",
-    name: "Paneer Garlic Naan",
-    price: "$7.99"
+    subCategory: "Wraps",
+    name: "Veg/Chicken Wraps",
+    price: "$13.99",
+    spice_level: "2",
   },
-  //BIRYANI
+
+  // BIRYANI - Veg Biryani
   {
-    id: 21,
+    id: 191,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Dil Kush Paneer Biryani",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 192,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Ghee Roast Cashew Paneer Biryani",
-    price: "$15.99"
+    price: "$17.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 193,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Bindaz Paneer 65 Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 194,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Gutti Vankaya Biryani (eggplant)",
-    price: "$14.99"
+    price: "$15.49",
+    spice_level: "2",
   },
   {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Veg Biryani",
-    name: "Bindaz Paneer Biryani",
-    price: "$15.99"
-  },
-  {
-    id: 21,
+    id: 195,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Karivepaku Paneer Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 196,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Paneer Tikka Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 197,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Paneer Vegetable Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 198,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
-    name: "Shahi Paneer Biryani",
-    price: "$15.99"
+    name: "Mughlai Paneer Biryani",
+    price: "$16.49",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 199,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Ulavacharu Veg Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 200,
     category: "BIRYANI",
     subCategory: "Veg Biryani",
     name: "Gongura Paneer Biryani",
-    price: "$15.99"
+    price: "$16.49",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 201,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Veg Kheema Biryani",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 202,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Royal Paneer Biryani",
+    price: "$16.99",
+    spice_level: "2",
+  },
+  {
+    id: 203,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Mushroom Biryani",
+    price: "$16.49",
+    spice_level: "2",
+  },
+  {
+    id: 204,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Zabardast Paneer Biryani",
+    price: "$16.99",
+    spice_level: "3",
+  },
+  {
+    id: 205,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Spicy Paneer Biryani",
+    price: "$16.99",
+    spice_level: "3",
+  },
+  {
+    id: 206,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "Bindaz Special Veg Biryani",
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 207,
+    category: "BIRYANI",
+    subCategory: "Veg Biryani",
+    name: "BEZ Paneer Biryani",
+    price: "$16.99",
+    spice_level: "2",
+  },
+
+  // BIRYANI - Chicken Biryani
+  {
+    id: 208,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Dil Kush Chicken Biryani",
-    price: "$16.99"
+    price: "$17.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 209,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Hyderabadi Chicken Dum Biryani - bone in",
-    price: "$14.99"
+    price: "$15.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 210,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
-    name: "Shahi Chicken Biryani",
-    price: "$15.99"
+    name: "Mughlai Chicken Biryani",
+    price: "$17.49",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 211,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Gongura Chicken Biryani",
-    price: "$15.99"
+    price: "$17.49",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 212,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Bindaz Chicken 65 Biryani",
-    price: "$15.99"
+    price: "$17.49",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 213,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Zabardast Chicken Biryani",
-    price: "$15.99"
+    price: "$17.49",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 214,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Spicy Chicken Boneless Biryani",
-    price: "$15.99"
+    price: "$17.49",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 215,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Butter Chicken Biryani",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 216,
+    category: "BIRYANI",
+    subCategory: "Chicken Biryani",
+    name: "Chicken Lollipop Biryani",
+    price: "$17.99",
+    spice_level: "3",
+  },
+  {
+    id: 217,
+    category: "BIRYANI",
+    subCategory: "Chicken Biryani",
+    name: "Chicken Wings Biryani",
+    price: "$17.99",
+    spice_level: "3",
+  },
+  {
+    id: 218,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Maharaja Chicken Biryani",
-    price: "$16.99"
+    price: "$17.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 219,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Ghee Roast Cashew Chicken Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 220,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Ghee Roasted Chicken Biryani",
-    price: "$16.99"
+    price: "$17.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 221,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "BEZ Chicken Biryani",
-    price: "$16.99"
+    price: "$17.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 222,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Karivepaku Chicken Biryani",
-    price: "$16.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 223,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Ulvacharu Chicken Biryani - Bone in",
-    price: "$15.99"
+    price: "$16.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 224,
     category: "BIRYANI",
     subCategory: "Chicken Biryani",
     name: "Chicken Tikka Biryani",
-    price: "$16.99"
+    price: "$18.99",
+    spice_level: "1",
   },
   {
-    id: 21,
+    id: 225,
+    category: "BIRYANI",
+    subCategory: "Chicken Biryani",
+    name: "Chicken Fry Piece Biryani (Bone-in)",
+    price: "$16.99",
+    spice_level: "2",
+  },
+
+  // BIRYANI - Goat/Mutton Biryani
+  {
+    id: 226,
+    category: "BIRYANI",
+    subCategory: "Goat/Mutton Biryani",
+    name: "Gongura Goat (Boneless) Biryani",
+    price: "$18.99",
+    spice_level: "3",
+  },
+  {
+    id: 227,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
     name: "Gongura Goat (Bone In) Biryani",
-    price: "$17.99"
+    price: "$18.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 228,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
-    name: "Ulvacharu Goat Biryani",
-    price: "$17.99"
+    name: "Mughlai Gosht Biryani",
+    price: "$18.49",
+    spice_level: "1",
   },
   {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Goat/Mutton Biryani",
-    name: "Shahi Gosht Biryani",
-    price: "$17.99"
-  },
-  {
-    id: 21,
+    id: 229,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
     name: "Palnadu Spicy Mutton Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 230,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
     name: "Ghee Roasted Cashew Mutton Biryani (boneless)",
-    price: "$18.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 231,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
     name: "Ghee Roasted Mutton Biryani (Boneless)",
-    price: "$17.99"
+    price: "$18.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 232,
     category: "BIRYANI",
     subCategory: "Goat/Mutton Biryani",
-    name: "Ghee Roasted Goat Biryani (bone-in)",
-    price: "$17.99"
+    name: "Ghee Roasted Goat Biryani (Bone-In)",
+    price: "$18.49",
+    spice_level: "2",
   },
+
+  // BIRYANI - Shrimp Biryani
   {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Shrimp Biryani",
-    name: "Karivepaku Shrimp Biryani",
-    price: "$17.99"
-  },
-  {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Shrimp Biryani",
-    name: "Dil Kush Shrimp Biryani",
-    price: "$17.99"
-  },
-  {
-    id: 21,
+    id: 233,
     category: "BIRYANI",
     subCategory: "Shrimp Biryani",
     name: "BEZ Shrimp Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 234,
     category: "BIRYANI",
     subCategory: "Shrimp Biryani",
     name: "Ghee Roasted Shrimp Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "2",
   },
   {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Shrimp Biryani",
-    name: "Gongura spicy Shrimp Biryani",
-    price: "$17.99"
-  },
-  {
-    id: 21,
+    id: 235,
     category: "BIRYANI",
     subCategory: "Shrimp Biryani",
     name: "Spicy Special Shrimp Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "3",
   },
   {
-    id: 21,
+    id: 236,
     category: "BIRYANI",
     subCategory: "Shrimp Biryani",
     name: "Shrimp Malai Biryani",
-    price: "$17.99"
+    price: "$17.99",
+    spice_level: "1",
   },
+
+  // BIRYANI - Egg Biryani
   {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Shrimp Biryani",
-    name: "Zabardast Shrimp Biryani",
-    price: "$16.99"
-  },
-  {
-    id: 21,
-    category: "BIRYANI",
-    subCategory: "Shrimp Biryani",
-    name: "Ghee Roasted cashew Shrimp Biryani",
-    price: "$18.99"
-  },
-  {
-    id: 21,
+    id: 237,
     category: "BIRYANI",
     subCategory: "Egg Biryani",
     name: "Dil Kush Egg Birayni",
-    price: "$15.99"
+    price: "$15.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 238,
     category: "BIRYANI",
     subCategory: "Egg Biryani",
     name: "Ghee Roasted Cashew Egg Biryani",
-    price: "$15.99"
+    price: "$15.99",
+    spice_level: "2",
   },
   {
-    id: 21,
+    id: 239,
     category: "BIRYANI",
     subCategory: "Egg Biryani",
     name: "Egg Biryani",
-    price: "$15.99"
+    price: "$15.99",
+    spice_level: "2",
+  },
+  {
+    id: 240,
+    category: "BIRYANI",
+    subCategory: "Egg Biryani",
+    name: "Gongura Egg Biryani",
+    price: "$15.99",
+    spice_level: "2",
   },
 
+  // DESSERTS
   {
-    id: 21,
+    id: 241,
     category: "DESSERTS",
     subCategory: "",
     name: "Apricot delight",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
+    id: 242,
+    category: "DESSERTS",
+    subCategory: "",
+    name: "Bread Halwa",
+    price: "$5.99",
+  },
+  {
+    id: 243,
     category: "DESSERTS",
     subCategory: "",
     name: "Carrot halwa",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 244,
     category: "DESSERTS",
-
+    subCategory: "",
     name: "Coconut Jamun",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 245,
     category: "DESSERTS",
-
+    subCategory: "",
     name: "Gulab Jamun",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 246,
     category: "DESSERTS",
-
+    subCategory: "",
     name: "Gulab Jamun With Ice Cream",
-    price: "$6.99"
+    price: "$6.99",
   },
   {
-    id: 21,
+    id: 247,
     category: "DESSERTS",
-
+    subCategory: "",
     name: "Rasmalai",
-    price: "$5.99"
+    price: "$5.99",
   },
   {
-    id: 21,
-    category: "BEVERAGES",
+    id: 248,
+    category: "DESSERTS",
+    subCategory: "",
+    name: "Matka Khulfi (Rabdi/Mango/Pistachio)",
+    price: "$4.99",
+  },
 
+  // BEVERAGES
+  {
+    id: 249,
+    category: "BEVERAGES",
+    subCategory: "",
     name: "Cardamom Tea",
-    price: "$3.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 250,
     category: "BEVERAGES",
-
+    subCategory: "",
     name: "Madras Coffee",
-    price: "$3.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 251,
     category: "BEVERAGES",
-
+    subCategory: "",
     name: "Indian Masala Tea",
-    price: "$3.99"
+    price: "$3.99",
+  },
+  {
+    id: 252,
+    category: "BEVERAGES",
+    subCategory: "",
+    name: "Hyderabadi Irani Chai - Small/Regular",
+    price: "$1.49/$3.00",
+  },
+  {
+    id: 253,
+    category: "BEVERAGES",
+    subCategory: "",
+    name: "Hyderabadi Masala Chai - Small/Regular",
+    price: "$1.49/$3.00",
   },
 
+  // COLD BEVERAGES
   {
-    id: 21,
+    id: 254,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Soft drinks/water",
-    price: "$2.49"
+    price: "$2.99",
   },
   {
-    id: 21,
+    id: 255,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Kashmiri Jeera",
-    price: "$3.49"
+    price: "$3.49",
   },
   {
-    id: 21,
+    id: 256,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Limca",
-    price: "$3.49"
+    price: "$2.99",
   },
   {
-    id: 21,
+    id: 257,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Thumbs up",
-    price: "$3.49"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 258,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Mango Rupture Lassi",
-    price: "$4.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 259,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Rose Rupture Lassi",
-    price: "$4.99"
+    price: "$4.99",
   },
   {
-    id: 21,
+    id: 260,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Sweet Lassi /Salt Lassi",
-    price: "$3.99"
+    price: "$3.99",
   },
   {
-    id: 21,
+    id: 261,
     category: "COLDBEVERAGES",
+    subCategory: "",
     name: "Lemon soda",
-    price: "$3.99"
+    price: "$3.99",
   },
 ];
 
