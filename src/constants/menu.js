@@ -4,7 +4,7 @@ const menuItems = [
     id: 1,
     category: "APPETIZERS",
     subCategory: "Veg Appetizers",
-    name: "Crispy Masala Fries",
+    name: "Crispy Masala Fries 112",
     price: "$5.99",
     spice_level: "2",
   },

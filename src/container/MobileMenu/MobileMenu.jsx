@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from '../Footer/Footer';
 import MobileMenuItem from '../MobileMenuItem/MobileMenuItem';
-
+import mobileMenuData from '../../assets/mobile-menu.json';
 import React, { Component } from 'react';
 import './MobileMenu.css';
 
@@ -26,7 +26,8 @@ class MobileMenu extends Component {
 
   fetchMenuData = async () => {
     try {
-      const response = await axios.get('https://sheets.googleapis.com/v4/spreadsheets/1i5jH1YX7kktPm5zkbu_ZJ3w7IZ8Jlwf1xX3ydfPZheQ/values/Sheet1!A:E?key=AIzaSyAGl0M4o-RdglrKL8VDDxLytbWC_QfWNcI');
+      // const response = await axios.get('https://sheets.googleapis.com/v4/spreadsheets/1i5jH1YX7kktPm5zkbu_ZJ3w7IZ8Jlwf1xX3ydfPZheQ/values/Sheet1!A:E?key=AIzaSyAGl0M4o-RdglrKL8VDDxLytbWC_QfWNcI');
+      const response = { data: mobileMenuData };
       
       var data = {"items": [], "categories": {}};
       let categoryCounter = 0;
