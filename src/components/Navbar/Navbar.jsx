@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-import { BrowserRouter as Router, Route, Routes, Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -75,19 +75,19 @@ const Navbar = () => {
           <a href="/" onClick={handleHomeClick}>Home</a> {/* Updated for smooth scroll */}
         </li>
         <li className="p__opensans">
-          <a onClick={() => handleScrollToSection('about')}>Our Story</a>
+          <a href="#about" onClick={(e) => { e.preventDefault(); handleScrollToSection('about'); }}>Our Story</a>
         </li>
         <li className="p__opensans">
-          <a onClick={handleMobileMenuClick}>Menu</a>
+          <a href="/mobile-menu" onClick={(e) => { e.preventDefault(); handleMobileMenuClick(); }}>Menu</a>
         </li>
         <li className="p__opensans">
-          <a onClick={handleBlogClick}>Blog</a>
+          <a href="/blog" onClick={(e) => { e.preventDefault(); handleBlogClick(); }}>Blog</a>
         </li>
         <li className="p__opensans">
-          <a onClick={() => handleScrollToSection('franchise')}>Franchise</a>
+          <a href="#franchise" onClick={(e) => { e.preventDefault(); handleScrollToSection('franchise'); }}>Franchise</a>
         </li>
         <li className="p__opensans">
-          <a onClick={() => handleScrollToSection('footer')}>Contact Us</a>
+          <a href="#footer" onClick={(e) => { e.preventDefault(); handleScrollToSection('footer'); }}>Contact Us</a>
         </li>
       </ul>
 
@@ -109,19 +109,19 @@ const Navbar = () => {
                 <a href="/" onClick={handleHomeClick}>Home</a> {/* Updated for smooth scroll */}
               </li>
               <li>
-                <a onClick={() => { handleScrollToSection('about'); setToggleMenu(false); }}>Our Story</a>
+                <a href="#about" onClick={(e) => { e.preventDefault(); handleScrollToSection('about'); setToggleMenu(false); }}>Our Story</a>
               </li>
               <li>
-                <a onClick={handleMobileMenuClick}>Menu</a>
+                <a href="/mobile-menu" onClick={(e) => { e.preventDefault(); handleMobileMenuClick(); }}>Menu</a>
               </li>
               <li>
-                <a onClick={() => { handleBlogClick(); setToggleMenu(false); }}>Blog</a>
+                <a href="/blog" onClick={(e) => { e.preventDefault(); handleBlogClick(); setToggleMenu(false); }}>Blog</a>
               </li>
               <li>
-                <a onClick={() => { handleScrollToSection('franchise'); setToggleMenu(false); }}>Franchise</a>
+                <a href="#franchise" onClick={(e) => { e.preventDefault(); handleScrollToSection('franchise'); setToggleMenu(false); }}>Franchise</a>
               </li>
               <li>
-                <a onClick={() => { handleScrollToSection('footer'); setToggleMenu(false); }}>Contact</a>
+                <a href="#footer" onClick={(e) => { e.preventDefault(); handleScrollToSection('footer'); setToggleMenu(false); }}>Contact</a>
               </li>
             </ul>
           </div>

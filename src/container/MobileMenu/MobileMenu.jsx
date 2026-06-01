@@ -1,11 +1,8 @@
 import Navbar from "../../components/Navbar/Navbar";
-import Footer from '../Footer/Footer';
 import MobileMenuItem from '../MobileMenuItem/MobileMenuItem';
 import mobileMenuData from '../../assets/mobile-menu.json';
 import React, { Component } from 'react';
 import './MobileMenu.css';
-
-import axios from 'axios';
 
 class MobileMenu extends Component {
   constructor(props) {
