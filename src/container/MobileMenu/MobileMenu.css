@@ -128,7 +128,7 @@ input.search-input {
 }
 
 .category-heading {
-  background-color: #da291c12;
+  background-color: #fcefee; /* opaque tint so items don't bleed through when sticky */
   color: #Da281c;
   padding: 15px 20px;
   margin: 0;
@@ -137,7 +137,7 @@ input.search-input {
   border-bottom: 2px solid #2c3e50;
   position: sticky; /* Make category headings stick to top while scrolling */
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu-items {

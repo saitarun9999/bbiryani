@@ -1,5 +1,5 @@
 {
-    "range": "Sheet1!A1:E923",
+    "range": "Sheet1!A1:E305",
     "majorDimension": "ROWS",
     "values": [
         [
@@ -10,3300 +10,2131 @@
             "is_veg"
         ],
         [
-            "8",
-            "Budweiser, 473ml can beer (5.0% ABV)",
-            "5.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "9",
-            "BUDWISER",
-            "5.86",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "10",
-            "Coors Light",
-            "5.86",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "11",
-            "Coors light 473 ml can beer (4.0% ABV)",
-            "5.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "12",
-            "Corona, 473ml can beer (4.5% ABV)",
-            "6.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "13",
-            "CORONA EXTRA",
-            "6.89",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "14",
-            "Happy Hr Drink",
-            "4.75",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "15",
-            "Heineiken, 473 ml can beer (5.0% ABV)",
-            "7.89",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "16",
-            "HEINEKEN",
-            "6.89",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "17",
-            "KINGFISHER",
-            "6.89",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "18",
-            "Molson Canadian",
-            "5.86",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "19",
-            "Molson Canadian, 473 ml can beer (5.0% ABV)",
-            "5.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "20",
-            "Peroni Nastro Azzurro BTL",
-            "5.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "21",
-            "Sapporo 500ml can beer (5.0% ABV)",
-            "6.99",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "22",
-            "STELLA ARTOIS",
-            "6.89",
-            "Beer",
-            "TRUE"
-        ],
-        [
-            "23",
-            "Badam Milk",
-            "5.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "24",
-            "Bottled Water",
-            "1.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "25",
-            "Cardamom Tea",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "26",
-            "Coke",
-            "2.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "27",
-            "Coke original",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "28",
-            "Diet coke",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "29",
-            "Diet Pepsi",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "30",
-            "Dr pepper",
-            "2.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "31",
-            "Fanta",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "32",
-            "Ginger Ale",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "33",
-            "Indian Masala Tea",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "34",
-            "Irani Chai - Regular",
-            "2",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "35",
-            "Irani Chai - Small",
             "1",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "36",
-            "Jeera Soda",
-            "4.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "37",
-            "Kasmiri Jeera",
-            "3.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "38",
-            "Lemon Soda",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "39",
-            "Limca",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "40",
-            "Madras Coffee",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "41",
-            "Mango Rupture Lassi",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "42",
-            "Nestea",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "43",
-            "Orange crush",
-            "2.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "44",
-            "Orange Juice",
-            "3.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "45",
-            "Pepsi",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "46",
-            "Perrier",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "47",
-            "Rose Rupture lassi",
-            "4.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "48",
-            "Salt Lassi",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "49",
-            "Soda",
-            "2.49",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "50",
-            "Sparkling Water",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "51",
-            "Special Hyderabadi Chai - Regular",
-            "2",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "52",
-            "Special Hyderabadi Chai - Small",
-            "1",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "53",
-            "Sprite",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "54",
-            "Sweet Lassi",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "55",
-            "Thumsup",
-            "3.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "56",
-            "Tonic water",
-            "2.99",
-            "Beverages",
-            "TRUE"
-        ],
-        [
-            "57",
-            "Chaat Papri",
-            "9.99",
-            "Chats and wraps",
-            "TRUE"
-        ],
-        [
-            "58",
-            "Channa Chaat",
-            "9.99",
-            "Chats and wraps",
-            "TRUE"
-        ],
-        [
-            "59",
-            "Samosa Chaat",
-            "9.99",
-            "Chats and wraps",
-            "TRUE"
-        ],
-        [
-            "60",
-            "Sev Poori",
-            "9.99",
-            "Chats and wraps",
-            "TRUE"
-        ],
-        [
-            "61",
-            "Tikka chicken wrap",
-            "13.99",
-            "Chats and wraps",
-            "FALSE"
-        ],
-        [
-            "62",
-            "Babai Chicken",
-            "15.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "63",
-            "Bindaz BEZ hot Chicken",
-            "16.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "64",
-            "Bindaz Chicken 65- wet",
-            "16.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "65",
-            "Cashew Chicken",
-            "15.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "66",
-            "Chicken 65 fry",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "67",
-            "Chicken 999",
-            "15.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "68",
-            "Chicken Majestic",
-            "16.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "69",
-            "Chicken Manchurian",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "70",
-            "Chilli Egg",
-            "16.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "71",
-            "Chilly Chicken",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "72",
-            "Karivepaku Chicken",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "73",
-            "Lemon pepper chicken",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "74",
-            "Lollipop Chicken- 5 Pieces",
-            "14.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "75",
-            "Mirapakay Chicken",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "76",
-            "Schezwan Chicken",
-            "15.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "77",
-            "Sweet Chilli Chicken",
-            "16.99",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "78",
-            "BEZ Chicken Biryani",
-            "17.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "79",
-            "Bindaz Chicken 65 Biryani",
-            "18.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "80",
-            "Butter Chicken Biryani",
-            "18.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "81",
-            "Chicken Fry Piece Biryani(Bone-in)",
-            "17.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "82",
-            "Chicken Tikka Biryani",
-            "18.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "83",
-            "Dil kush Chicken Biryani",
-            "18.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "84",
-            "Ghee Roast Cashew Chicken Biryani",
-            "18.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "85",
-            "Ghee Roasted Chicken Biryani",
-            "18.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "86",
-            "Gongura Chicken Biryani",
-            "17.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "87",
-            "Hyderabadi Chicken Dum Biryani - bone in",
-            "16.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "88",
-            "Karivepaku Chicken Biryani",
-            "18.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "89",
-            "Lunch Chicken Combo",
-            "14.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "90",
-            "Maharaja Chicken Biryani",
-            "18.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "91",
-            "Mogulai Chicken Biryani",
-            "18.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "92",
-            "Rim Jim Chicken Biryani",
-            "15.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "93",
-            "Special Offer Biryani",
-            "12.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "94",
-            "Spicy Chick Boneless Biryani",
-            "17.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "95",
-            "Spicy Chicken Boneless Biryani",
-            "18.49",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "96",
-            "Ulvacharu Chicken Biryani - bone in",
-            "17.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "97",
-            "Zabadast Chicken Biryani",
-            "17.99",
-            "Chicken Biryanis",
-            "FALSE"
-        ],
-        [
-            "98",
-            "Bindaz Spicy Chicken Curry",
-            "16.45",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "99",
-            "Butter Chicken",
-            "17.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "100",
-            "Chettinad Chicken",
-            "16.49",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "101",
-            "Chicken bhuna masala",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "102",
-            "Chicken Keema",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "103",
-            "Chicken Mogulai Khorma",
-            "16.49",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "104",
-            "Chicken Tikka Masala",
-            "16.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "105",
-            "Chicken Tikka Saag",
-            "16.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "106",
-            "Chicken Vindaloo",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "107",
-            "Chowrasta chicken fry(bone in)",
-            "14.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "108",
-            "Dilkush spl chicken curry (bonein)",
-            "16.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "109",
-            "Gongura Chicken curry",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "110",
-            "Gongura chicken curry (Bonein)",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "111",
-            "Kadai Chicken",
-            "16.49",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "112",
-            "Kaju Chicken Curry",
-            "17.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "113",
-            "Methi Murg",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "114",
-            "Saag Chicken",
-            "15.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "115",
-            "Shahjahani Chicken",
-            "16.99",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "116",
-            "Ulavacharu Chicken Curry",
-            "16.49",
-            "Chicken Entrees",
-            "FALSE"
-        ],
-        [
-            "117",
-            "Bacardi Mojitho",
-            "6.86",
-            "Coolers",
-            "TRUE"
-        ],
-        [
-            "118",
-            "Bacardi Pina Colado",
-            "6.86",
-            "Coolers",
-            "TRUE"
-        ],
-        [
-            "119",
-            "JoseCuervo sparkling margarita",
-            "6.89",
-            "Coolers",
-            "TRUE"
-        ],
-        [
-            "120",
-            "Smirnoff ice",
-            "6.86",
-            "Coolers",
-            "TRUE"
-        ],
-        [
-            "121",
-            "Butter Chicken & BNaan",
-            "18.99",
-            "Curry Combos",
-            "FALSE"
-        ],
-        [
-            "122",
-            "Apricot Delight",
-            "5.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "123",
-            "Carrot halwa",
-            "4.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "124",
-            "Coconut Jamun",
-            "4.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "125",
-            "Gulab Jamun",
-            "4.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "126",
-            "Gulabjamun With IceCream",
-            "6.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "127",
-            "Payasam",
-            "6.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "128",
-            "Rasgulla",
-            "4.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "129",
-            "Rasmalai",
-            "5.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "130",
-            "Ravva Kesari",
-            "5.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "131",
-            "Shahi Tukda",
-            "4.99",
-            "Desserts",
-            "TRUE"
-        ],
-        [
-            "132",
-            "Dilkush Egg Birayni",
-            "16.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "133",
-            "Egg Biryani",
-            "16.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "134",
-            "Ghee Roasted Cashew Egg Biryani",
-            "16.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "135",
-            "Gongura Egg Biryani",
-            "16.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "136",
-            "Karivepaku egg biryani",
-            "14.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "137",
-            "Ulavacharu Egg Biryani",
-            "14.99",
-            "Egg Biryanis",
-            "FALSE"
-        ],
-        [
-            "138",
-            "Egg Burjji",
-            "13.99",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "139",
-            "Egg Masala Curry",
-            "16.49",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "140",
-            "Egg vindaloo",
-            "14.99",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "141",
-            "Haryana Egg Curry",
-            "15.99",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "142",
-            "Hyderabad Egg Curry",
-            "16.49",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "143",
-            "Nizami Spl Egg Curry",
-            "16.49",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "144",
-            "Ulavachru Egg Curry",
-            "14.99",
-            "Egg entrees",
-            "FALSE"
-        ],
-        [
-            "145",
-            "Boiled Eggs-2",
-            "3.99",
-            "Extra Dishes",
-            "FALSE"
-        ],
-        [
-            "146",
-            "Bucket Biryani",
-            "29.99",
-            "Extra Dishes",
-            "FALSE"
-        ],
-        [
-            "147",
-            "Egg masala omlette",
-            "11.99",
-            "Extra Dishes",
-            "FALSE"
-        ],
-        [
-            "148",
-            "Egg onion omlette",
-            "9.99",
-            "Extra Dishes",
-            "FALSE"
-        ],
-        [
-            "149",
-            "Extra Raitha",
-            "1.49",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "150",
-            "Extra Salan",
-            "1.49",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "151",
-            "Five Star chocolate bar",
-            "2.59",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "152",
-            "Jeera Rice",
-            "9.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "153",
-            "Lentils Soup",
-            "7.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "154",
-            "Masala Dum Rice",
-            "9.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "155",
-            "Masala papad-2",
-            "2.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "156",
-            "Munch  chocolate bar",
-            "2.59",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "157",
-            "Onion Salad",
-            "2.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "158",
-            "Osmania Biscuits(2)",
-            "1.00",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "159",
-            "Papad",
-            "2.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "160",
-            "Papad in oil - 3 pieces",
-            "3.49",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "161",
-            "Peanut Chutney",
-            "3.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "162",
-            "Plain Yougurt",
-            "3.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "163",
-            "Sambar 16-0z",
-            "8.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "164",
-            "Ulavacharu",
-            "8.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "165",
-            "White Rice",
-            "5.99",
-            "Extra Dishes",
-            "TRUE"
-        ],
-        [
-            "194",
-            "Chowrasta Goat Dum Biryani",
-            "15.99",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "195",
-            "Ghee Roasted Cashew Mutton Biryani(boneless)",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "196",
-            "Ghee roasted goat biryani (bone-in)",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "197",
-            "Ghee Roasted Mutton Biryani (Boneless)",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "198",
-            "Gongura Spicy Goat (Bone In)Biryani",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "199",
-            "Gongura Spicy Goat boneless Biryani",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "200",
-            "Palnadu Spicy Mutton biryani",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "201",
-            "Shahi Gosht Biryani",
-            "19.49",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "202",
-            "Ulvacharu Goat Biryani",
-            "17.99",
-            "Goat Biryanis",
-            "FALSE"
-        ],
-        [
-            "203",
-            "Bindaz Spicy Goat Curry",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "204",
-            "Chettinad Goat Curry",
-            "18.99",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "205",
-            "Goangura Goat Curry",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "206",
-            "Goat bhuna masala",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "207",
-            "Goat Malai",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "208",
-            "Goat Rogan Josh",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "209",
-            "Kadai Goat",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "210",
-            "Ulavacharu Goat Curry",
-            "19.49",
-            "Goat Entrees",
-            "FALSE"
-        ],
-        [
-            "211",
-            "Chicken Hakka Fried Rice",
-            "16.49",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "212",
-            "Chicken Manchurian Fried rice",
-            "14.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "213",
-            "Chicken Schezwan Fried Rice",
-            "16.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "214",
-            "Egg Fried Rice",
-            "16.49",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "215",
-            "Egg Manchurian Fried rice",
-            "14.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "216",
-            "Egg Schezwan Fried Rice",
-            "16.49",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "217",
-            "Shrimp Fried Rice",
-            "16.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "218",
-            "Shrimp Manchurian Fried rice",
-            "14.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "219",
-            "Shrimp Schezwan Fried Rice",
-            "16.99",
-            "Indo-Chinese Fried rice",
-            "FALSE"
-        ],
-        [
-            "220",
-            "Veg Hakka Fried Rice",
-            "15.99",
-            "Indo-Chinese Fried rice",
-            "TRUE"
-        ],
-        [
-            "221",
-            "Veg Manchurian Fried Rice",
-            "13.99",
-            "Indo-Chinese Fried rice",
-            "TRUE"
-        ],
-        [
-            "222",
-            "Veg Shezwan Fried Rice",
-            "15.99",
-            "Indo-Chinese Fried rice",
-            "TRUE"
-        ],
-        [
-            "223",
-            "Chicken Hakka Noodles",
-            "16.49",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "224",
-            "Chicken Manchurian noodles",
-            "13.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "225",
-            "Chicken Shezwan Noodles",
-            "16.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "226",
-            "Egg Hakka Noodles",
-            "16.49",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "227",
-            "Egg Manchurian noodles",
-            "14.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "228",
-            "Egg Schezuwan Noodles",
-            "16.49",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "229",
-            "Shrimp hakka Noodles",
-            "16.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "230",
-            "Shrimp Manchurian noodles",
-            "15.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "231",
-            "Shrimp Schezuwan Noodles",
-            "16.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "232",
-            "Shrimp Shezwan Noodles",
-            "15.99",
-            "Indo-Chinese Noodles",
-            "FALSE"
-        ],
-        [
-            "233",
-            "Veg Hakka Noodles",
-            "15.99",
-            "Indo-Chinese Noodles",
-            "TRUE"
-        ],
-        [
-            "234",
-            "Veg Manchurian noodles",
-            "13.99",
-            "Indo-Chinese Noodles",
-            "TRUE"
-        ],
-        [
-            "235",
-            "Veg Shezwan Noodles",
-            "15.99",
-            "Indo-Chinese Noodles",
-            "TRUE"
-        ],
-        [
-            "236",
-            "Bindaz Spicy Lamb Curry",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "237",
-            "Gongura Lamb Curry",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "238",
-            "Kadai Lamb",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "239",
-            "Lamb Bhuna Masala",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "240",
-            "Lamb Khorma",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "241",
-            "Lamb Rogan Josh",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "242",
-            "Lamb Saag",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "243",
-            "Lamb Vindaloo",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "244",
-            "Ulavacharu Lamb Curry",
-            "19.49",
-            "Lamb Entrees",
-            "FALSE"
-        ],
-        [
-            "259",
-            "Ajwain paratha",
-            "5.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "260",
-            "Aloo Paratha",
-            "5.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "261",
-            "Butter Naan",
-            "3.49",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "262",
-            "Butter Roti",
-            "2.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "263",
-            "Cheese Garlic Naan",
-            "7.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "264",
-            "Cheese Naan",
-            "6.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "265",
-            "Chilli Naan",
-            "4.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "266",
-            "Garlic Naan",
-            "4.49",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "267",
-            "Laccha Paratha",
-            "4.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "268",
-            "Methi Paratha",
-            "5.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "269",
-            "Methi Roti",
-            "4.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "270",
-            "Onion kulcha",
-            "4.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "271",
-            "Paneer garlic naan",
-            "7.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "272",
-            "Paneer Naan",
-            "6.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "273",
-            "peshawari naan",
-            "4.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "274",
-            "Plain Bathura",
-            "3.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "275",
-            "Plain Naan",
-            "2.49",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "276",
-            "Poori",
-            "3.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "277",
-            "Pudina Paratha",
-            "5.99",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "278",
-            "Roti",
-            "2.49",
-            "Naans&Rotis",
-            "TRUE"
-        ],
-        [
-            "279",
-            "Coke - OO",
-            "0",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "280",
-            "Diet Coke",
-            "2.49",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "281",
-            "Diet Coke - OO",
-            "2.99",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "282",
-            "Orange Crush",
-            "0",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "283",
-            "Orange Crush - OO",
-            "0",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "284",
-            "Pepsi - OO",
-            "0",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "285",
-            "Sprite - OO",
-            "0",
-            "*N/A Drinks Modifiers",
-            "TRUE"
-        ],
-        [
-            "286",
-            "Bindaz Tandoori ChickenPlatter",
-            "35.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "287",
-            "Bindaz Tandoori  mix chicken & Naan",
-            "19.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "288",
-            "Chicken Malai Kabab",
-            "17.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "289",
-            "Chicken Tikka Kabab",
-            "17.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "290",
-            "Fish tikka",
-            "17.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "291",
-            "Haryali Chicken Tikka",
-            "17.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "292",
-            "Tandoori Chicken 1/2",
-            "16.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "293",
-            "Tandoori Chicken Full",
-            "29.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "294",
-            "Tangdi Kabab",
-            "17.99",
-            "Non-veg Tandoori/kababs",
-            "FALSE"
-        ],
-        [
-            "324",
-            "Bindaz BEZ hot shrimp",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "325",
-            "Chilli Fish",
-            "16.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "326",
-            "Chilli Shrimp",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "327",
-            "Crispy Prawns Fry",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "328",
-            "Fish Apollo",
-            "16.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "329",
-            "Karivepaku shrimp",
-            "16.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "330",
-            "lemon pepper fish",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "331",
-            "lemon pepper shrimp",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "332",
-            "Prawn Majestic",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "333",
-            "Prawn Manchurian",
-            "17.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "334",
-            "Schezwan shrimp",
-            "16.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "335",
-            "Shrimp 65",
-            "16.99",
-            "Seafood Appetizers",
-            "FALSE"
-        ],
-        [
-            "336",
-            "Chettinad Fish Curry",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "337",
-            "Fish Masala Curry",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "338",
-            "Gongura Prawns",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "339",
-            "Gongura Spicy Fish Curry",
-            "16.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "340",
-            "Hyderabadi Spl Shrimp Curry",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "341",
-            "Kadai Prawn",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "342",
-            "Malai Prawn",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "343",
-            "Pallakollu Fish curry",
-            "16.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "344",
-            "Prawn Bhuna Masala",
-            "16.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "345",
-            "Prawn Butter Masala",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "346",
-            "Prawn Chettinad",
-            "16.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "347",
-            "Prawn Chettinad",
-            "16.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "348",
-            "Prawn Masala",
-            "17.99",
-            "Seafood Entrees",
-            "FALSE"
-        ],
-        [
-            "349",
-            "Bez Spl shrimp Biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "350",
-            "Dil Kush Shrimp Biryani",
-            "17.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "351",
-            "Ghee Roasted cashew Shrimp Biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "352",
-            "Ghee Roasted Shrimp Biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "353",
-            "Gongura Spicy shrimp biryani",
-            "17.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "354",
-            "karivepaku Shrimp Biryani",
-            "17.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "355",
-            "Maharaja shrimp biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "356",
-            "Prawn Fry Piece Biryani",
-            "16.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "357",
-            "Shrimp Mogulai Biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "358",
-            "Spicy Special Shrimp Biryani",
-            "18.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "359",
-            "Zabardast shrimp biryani",
-            "17.99",
-            "Shrimp Biryanis",
-            "FALSE"
-        ],
-        [
-            "360",
-            "Babai Idli",
-            "10.99",
-            "South Indian specials",
-            "TRUE"
-        ],
-        [
-            "361",
-            "Ghee idli",
-            "9.99",
-            "South Indian specials",
-            "TRUE"
-        ],
-        [
-            "362",
-            "Idli",
-            "8.99",
-            "South Indian specials",
-            "TRUE"
-        ],
-        [
-            "363",
-            "Sambar Idli",
-            "10.99",
-            "South Indian specials",
-            "TRUE"
-        ],
-        [
-            "364",
-            "Bez Special chicken biryani bucket",
-            "32.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "365",
-            "Bindaz Chicken 65 biryani bucket",
-            "33.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "366",
-            "Butter chicken biryani bucket",
-            "35.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "367",
-            "Chicken Tikka Biryani Bucket",
-            "35.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "368",
-            "Dil kush chicken biryani bucket",
-            "34.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "369",
-            "Dil Kush Egg Biryani Bucket",
-            "31.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "370",
-            "Dil Kush Shrimp Biryani Bucket",
-            "38.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "371",
-            "Egg Biryani bucket",
-            "30.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "372",
-            "Ghee roasted cashew chicken biryani bucket",
-            "35.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "373",
-            "Ghee roasted cashew egg biryani bucket",
-            "32.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "374",
-            "Ghee roasted chicken Biryani bucket",
-            "34.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "375",
-            "Ghee Roasted mutton Biryani bucket",
-            "41.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "376",
-            "Ghee roasted shrimp biryani bucket",
-            "42.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "377",
-            "Gongura chicken biryani bucket",
-            "33.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "378",
-            "Gongura mutton biryani (bonein)bucket",
-            "41.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "379",
-            "Gongura mutton boneless bucket",
-            "42.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "380",
-            "Hyd Chicken Dum Biryani Bucket",
-            "32.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "381",
-            "Karevepaku shrimp Biryani bucket",
-            "36.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "382",
-            "karivepaku chicken Biryani bucket",
-            "33.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "383",
-            "Karivepaku Shrimp Biryani Bucket",
-            "38.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "384",
-            "Maharaja chicken Biryani bucket",
-            "35.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "385",
-            "Mogulai chicken biryani bucket",
-            "33.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "386",
-            "Palnadu Mutton Boneless Bucket",
-            "38.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "387",
-            "Rimjim chicken  Biryani bucket",
-            "29.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "388",
-            "Shahi gosht biryani bucket",
-            "34.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "389",
-            "Special Offer Bucket",
-            "26.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "390",
-            "Spicy Chicken Biryani Bucket",
-            "33.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "391",
-            "Spicy Mutton Bone In Bucket",
-            "37.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "392",
-            "Zabardast chicken biryani bucket",
-            "32.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "393",
-            "Zabardast shrimp biryani bucket",
-            "41.99",
-            "Special Non-veg Biryani Buckets",
-            "FALSE"
-        ],
-        [
-            "394",
-            "Bindaz Paneer 65 Biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "395",
-            "Dil kush paneer biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "396",
-            "Ghee roasted cashew paneer bucket",
-            "32.49",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "397",
-            "Gongura paneer biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "398",
-            "Gutti vankai(eggplant) biryani bucket",
-            "28.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "399",
-            "Karivepaku paneer biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "400",
-            "Paneer tikka biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "401",
-            "Panner Veg Biryani Bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "402",
-            "Rimjim Paneer biryani bucket",
-            "29.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "403",
-            "Veg dum biryani bucket",
-            "28.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "404",
-            "Zabardast paneer Biryani bucket",
-            "31.99",
-            "Special Veg Biryani Buckets",
-            "TRUE"
-        ],
-        [
-            "405",
-            "Aloo Samosa-2",
-            "6.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "406",
-            "Baby Corn Majestic",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "407",
-            "Bindaz Paneer 65",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "408",
-            "Cashew Paneer",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "409",
-            "Chilly Paneer",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "410",
-            "Corn 65",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "411",
-            "Corn Manchurian",
-            "15.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "412",
-            "Corn Manchurian (T)",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "413",
-            "Corn samosa-5",
-            "6.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "414",
-            "Crispy Baby Corn Fry",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "415",
             "Crispy Masala Fries",
             "6.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "416",
+            "2",
             "Crispy Pepper Fries",
             "6.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "417",
+            "3",
+            "Aloo Samosa - 2",
+            "6.49",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "4",
+            "Corn Kernel Samosa - 5",
+            "6.49",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "5",
+            "Mix Veggie Samosa - 5",
+            "6.49",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "6",
+            "Onion Samosa - 5",
+            "6.49",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "7",
             "Cut Mirchi",
             "9.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "418",
-            "Gobhi Manchurian Fry",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "419",
-            "Granite Corn",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "420",
-            "Karivepaku Corn",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "421",
-            "karivepaku gobhi Fry",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "422",
-            "Karvepaku Paneer",
-            "16.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "423",
+            "8",
             "Mirchi Bajji - 5 pieces",
             "11.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "424",
-            "Mix Veg Samosa-5",
-            "6.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "425",
-            "Onion Samosa-5",
-            "6.49",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "426",
-            "Paneer 999",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "427",
-            "Paneer Majestic",
-            "16.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "428",
-            "Paneer Manchurian",
-            "16.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "429",
-            "Peri Peri Fries",
-            "6.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "430",
-            "Rim Jim Paneer",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "431",
-            "Sweet Chilli Paneer",
-            "14.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "432",
-            "Sweet Potato Fries",
-            "4.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "433",
-            "Whole cashews spice mix",
-            "13.99",
-            "Veg Appetizers",
-            "TRUE"
-        ],
-        [
-            "434",
-            "Bindaz Paneer 65 Biryani",
+            "9",
+            "Karivepaku Corn",
             "16.49",
-            "Veg Biryanis",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "435",
-            "Bindaz Special Veg Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "436",
-            "Dil kush paneer biryani",
-            "16.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "437",
-            "Ghee Roasted Cashew Paneer Biryani",
+            "10",
+            "Karivepaku Gobhi fry",
             "17.49",
-            "Veg Biryanis",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "438",
-            "Ghee Roasted Paneer Biryani",
-            "16.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "439",
-            "Gongura Spicy paneer biryani",
+            "11",
+            "Karivepaku Paneer",
             "16.49",
-            "Veg Biryanis",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "440",
-            "Gongura Veg Dum biryani",
-            "14.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "441",
-            "Gutti Vankaya(eggplant) Biryani",
+            "12",
+            "Bindaz Paneer 65",
             "16.49",
-            "Veg Biryanis",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "442",
-            "Karivepaku Paneer Biryani",
+            "13",
+            "Crispy Baby Corn fry",
             "16.49",
-            "Veg Biryanis",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "443",
-            "Lunch Veg Combo",
-            "13.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "444",
-            "Mogulai Paneer Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "445",
-            "Mushroom Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "446",
-            "Paneer Tikka Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "447",
-            "Paneer Vegetable Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "448",
-            "Rim Jim Paneer Biryani",
-            "15.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "449",
-            "Royale Paneer Biryani",
-            "16.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "450",
-            "Ulavacharu Veg Biryani",
-            "16.49",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "451",
-            "Veg Dum Biryani",
-            "13.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "452",
-            "Zabardast Paneer Biryani",
-            "16.99",
-            "Veg Biryanis",
-            "TRUE"
-        ],
-        [
-            "453",
-            "Aloo Gobi Mutter",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "454",
-            "Andhra spicy Dal",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "455",
-            "Andhra Veg Curry",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "456",
-            "Bhagara Baingan",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "457",
-            "Bindi Masala",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "458",
-            "Chana masala",
-            "15.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "459",
-            "Channa Batura",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "460",
-            "Channa Poori",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "461",
-            "Dal Makhani",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "462",
-            "Dal Palak(spinach)",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "463",
-            "Dal Tadka",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "464",
-            "Gongura Paneer Curry",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "465",
-            "Gongura Spicy Dal",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "466",
-            "Hyderabadi Paneer Curry",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "467",
-            "Kadai Paneer",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "468",
-            "Kaju Paneer",
+            "14",
+            "Gobhi Manchurian fry",
             "17.49",
-            "Veg entrees",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "469",
-            "Malai Kofta",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "470",
-            "Methi Chaman",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "471",
-            "Mogulai Paneer",
+            "15",
+            "Chilly Paneer",
             "16.49",
-            "Veg entrees",
+            "Veg Appetizers",
             "TRUE"
         ],
         [
-            "472",
-            "Muttar Paneer",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "473",
-            "Navarathan Khorma",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "474",
-            "Paneer Butter Masala",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "475",
-            "Paneer Tikka Masala",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "476",
-            "Saag Chana",
-            "15.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "477",
-            "Saag Paneer",
-            "16.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "478",
-            "Sambar Rice",
-            "12.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "479",
-            "Tomato cashew curry",
-            "16.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "480",
-            "Vegetable Khorma",
-            "15.49",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "481",
-            "Veg Manchuria",
-            "12.99",
-            "Veg entrees",
-            "TRUE"
-        ],
-        [
-            "482",
-            "Achari Paneer Tikka",
-            "16.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "483",
-            "Bindaz Tandoori  paneer mix combo",
-            "19.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "484",
-            "Bindaz Tandoori Paneer Platter",
-            "30.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "485",
-            "Haryali Paneer Tikka",
-            "16.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "486",
-            "Malai Paneer kabab",
-            "16.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "487",
-            "Paneer Tikka Kabab",
-            "16.99",
-            "Veg Tandoori/kababs",
-            "TRUE"
-        ],
-        [
-            "488",
-            "Absolut vodka",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "489",
-            "Bacardi white",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "490",
-            "Bombay sapphire",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "491",
-            "Canadian Club",
-            "5.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "492",
-            "Captain Morgan",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "493",
-            "Chivas Regal 12",
-            "6.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "494",
-            "Glenfiddich 12",
-            "7.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "495",
-            "GLENLIVET 12",
-            "7.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "496",
-            "Greygoose",
-            "6.89",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "497",
-            "Jack denials",
-            "5.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "498",
-            "Jägermeister",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "499",
-            "Jameson Irish",
-            "5.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "500",
-            "Johnnie Walker BL Scotch",
-            "6.86",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "501",
-            "TEQUILA Shot",
-            "5.49",
-            "Whiskeys and Spirits",
-            "TRUE"
-        ],
-        [
-            "502",
-            "Jackson T cabernet sauvignon Bottle",
-            "24.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "503",
-            "Jackson T cabernet sauvignon Red GL",
-            "5.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "504",
-            "Jackson Triggs chardonnay W bottle",
-            "24.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "505",
-            "Jackson Triggs chardonnay W GL",
-            "5.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "506",
-            "Jackson Triggs pinot grigio W bottle",
-            "24.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "507",
-            "Jackson Triggs pinot grigio W gl",
-            "5.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "508",
-            "Jackson Triggs Shiraz bottle",
-            "24.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "509",
-            "Jackson Triggs Shiraz Red GL",
-            "5.99",
-            "Wine",
-            "TRUE"
-        ],
-        [
-            "510",
+            "16",
             "Malai Broccoli",
             "16.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "511",
+            "17",
             "Cripy Corn Kernals",
             "9.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "512",
+            "18",
             "Onion Rings",
             "9.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "513",
+            "19",
             "Soya Chops (Malai/Achari)",
             "16.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "514",
+            "20",
             "Veggie Momos (Butter/Plain/Malai/Tandoori)",
-            "16.99",
+            "16.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "515",
+            "21",
             "Veg Chilli Pizza",
             "12.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "516",
+            "22",
             "Bindaz Special Veg Pizza",
             "14.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "517",
+            "23",
             "Veg Balls",
             "12.99",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "518",
+            "24",
             "Veg Manchuria",
             "16.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "519",
+            "25",
+            "Baby Corn Majestic",
+            "16.49",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "26",
             "Baby Corn Manchuria",
             "16.49",
             "Veg Appetizers",
             "TRUE"
         ],
         [
-            "520",
+            "27",
+            "Paneer Majestic",
+            "16.99",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "28",
+            "Chicken 65 fry",
+            "16.49",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "29",
+            "Bindaz Chicken 65 - Wet",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "30",
+            "Lemon Pepper Chicken",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "31",
+            "Karivepaku Chicken",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "32",
+            "Chicken Manchurian",
+            "16.49",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "33",
+            "Chilly Chicken",
+            "16.49",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "34",
             "Malai Chicken",
             "16.99",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "521",
-            "Hyderabad Chicken Pakoda (Bone-In)",
+            "35",
+            "Hyderabad Chicken Pakoda(Bone-In)",
             "16.49",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "522",
-            "Hyderabad Cashew Chicken Pakoda (Bone-In)",
+            "36",
+            "Hyderabad Cashew Chicken Pakoda(Bone-In)",
             "17.99",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "523",
-            "Chicken Lollipops (Dry/Wet)",
+            "37",
+            "Chicken Lollipops",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "38",
+            "Chicken Wings (Butter/Chilli/Buffalo/Regular)",
             "16.49",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "524",
-            "Chicken Wings (Chilli/Buffalo/Regular) (Dry/Wet)",
-            "16.49",
-            "Chicken appetizers",
-            "FALSE"
-        ],
-        [
-            "525",
+            "39",
             "Chicken Momos (Chilli/Plain/Malai/Tandoori)",
             "16.49",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "526",
+            "40",
             "Chicken Chilli Pizza",
             "13.99",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "527",
+            "41",
             "Bindaz Special Chicken Pizza",
             "15.99",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "528",
+            "42",
             "Chicken Majestic Dry",
             "16.99",
-            "Chicken appetizers",
+            "Chicken Appetizers",
             "FALSE"
         ],
         [
-            "529",
+            "43",
+            "Chicken Majestic Wet",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "44",
+            "Tandoori Chicken Full",
+            "29.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "45",
+            "Tandoori Chicken 1/2",
+            "16.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "46",
+            "Bindaz Tandoori Chicken Platter",
+            "35.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "47",
+            "Chicken Malai Kabab",
+            "17.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "48",
+            "Chicken Tikka Kabab",
+            "17.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "49",
+            "Haryali Chicken Tikka",
+            "17.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "50",
+            "Tangdi Kabab",
+            "17.99",
+            "Non-Veg Tandoori/Kababs",
+            "FALSE"
+        ],
+        [
+            "51",
+            "Bindaz Tandoori Paneer Platter",
+            "30.99",
+            "Veg Tandoor/Kababs",
+            "TRUE"
+        ],
+        [
+            "52",
+            "Achari Paneer Tikka",
+            "16.99",
+            "Veg Tandoor/Kababs",
+            "TRUE"
+        ],
+        [
+            "53",
+            "Haryali Paneer Tikka",
+            "16.99",
+            "Veg Tandoor/Kababs",
+            "TRUE"
+        ],
+        [
+            "54",
+            "Malai Paneer Kabab",
+            "16.99",
+            "Veg Tandoor/Kababs",
+            "TRUE"
+        ],
+        [
+            "55",
+            "Paneer Tikka Kabab",
+            "16.99",
+            "Veg Tandoor/Kababs",
+            "TRUE"
+        ],
+        [
+            "56",
+            "Chilly Fish",
+            "17.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "57",
             "Finger Fish",
             "16.99",
             "Seafood Appetizers",
             "FALSE"
         ],
         [
-            "530",
-            "Butter Garlic Prawns",
+            "58",
+            "Fish Apollo",
             "17.99",
             "Seafood Appetizers",
             "FALSE"
         ],
         [
-            "531",
-            "Street Style Noodles/ Fried Rice",
-            "17.49",
-            "Indo-Chinese Noodles",
+            "59",
+            "Chilly Shrimp",
+            "18.99",
+            "Seafood Appetizers",
             "FALSE"
         ],
         [
-            "532",
+            "60",
+            "Crispy Prawns fry",
+            "18.49",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "61",
+            "Butter Garlic Prawns",
+            "18.49",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "62",
+            "Lemon Pepper Shrimp",
+            "18.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "63",
+            "Lemon Pepper Fish",
+            "17.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "64",
+            "Chicken Hakka Noodles",
+            "16.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "65",
+            "Chicken Hakka Fried Rice",
+            "16.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "66",
+            "Chicken Schezwan Noodles",
+            "16.99",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "67",
+            "Chicken Schezwan Fried Rice",
+            "16.99",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "68",
+            "Shrimp Hakka Noodles",
+            "17.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "69",
+            "Shrimp Fried Rice",
+            "16.99",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "70",
+            "Street Style Chicken Fried Rice",
+            "17.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "71",
+            "Street Style Chicken Noodles",
+            "17.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "72",
+            "Shrimp Schezwan Noodles",
+            "17.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "73",
+            "Shrimp Schezwan Fried Rice",
+            "16.99",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "74",
+            "Egg Hakka Noodles",
+            "16.99",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "75",
+            "Egg Schezwan Noodles",
+            "16.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "76",
+            "Egg Fried Rice",
+            "16.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "77",
+            "Egg Schezwan Fried Rice",
+            "16.49",
+            "Indo Chinese Non-Veg",
+            "FALSE"
+        ],
+        [
+            "78",
             "Bindaz Special Non Veg Fried Rice",
             "16.49",
-            "Indo-Chinese Fried rice",
+            "Indo Chinese Non-Veg",
             "FALSE"
         ],
         [
-            "533",
-            "Street Style Noodles/ Fried Rice Veg",
-            "16.99",
-            "Indo-Chinese Noodles",
+            "79",
+            "Veg Schezwan Noodles",
+            "15.99",
+            "Indo Chinese Veg",
             "TRUE"
         ],
         [
-            "534",
+            "80",
+            "Veg Hakka Noodles",
+            "15.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "81",
+            "Veg Hakka Fried Rice",
+            "15.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "82",
+            "Veg Schezwan Fried Rice",
+            "15.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "83",
+            "Street Style Veg Fried Rice",
+            "16.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "84",
+            "Street Style Veg Noodles",
+            "16.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "85",
             "Gobhi Fried Rice",
             "15.99",
-            "Indo-Chinese Fried rice",
+            "Indo Chinese Veg",
             "TRUE"
         ],
         [
-            "535",
+            "86",
             "Bindaz Special Veg Fried Rice",
             "16.99",
-            "Indo-Chinese Fried rice",
+            "Indo Chinese Veg",
             "TRUE"
         ],
         [
-            "536",
-            "Street Style Manchurian Veg Fried Rice",
-            "16.99",
-            "Indo-Chinese Fried rice",
-            "TRUE"
-        ],
-        [
-            "537",
-            "Street Style Manchurian Veg Noodles",
-            "16.99",
-            "Indo-Chinese Noodles",
-            "TRUE"
-        ],
-        [
-            "538",
+            "87",
             "Chicken Nuggets",
             "9.99",
-            "Chicken appetizers",
+            "Kids Menu",
             "FALSE"
         ],
         [
-            "539",
+            "88",
+            "Sweet Potato Fries",
+            "4.99",
+            "Kids Menu",
+            "TRUE"
+        ],
+        [
+            "89",
+            "Papad",
+            "2.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "90",
+            "Papad in Oil - 3 pieces",
+            "3.49",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "91",
+            "White Rice",
+            "5.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "92",
+            "Jeera Rice",
+            "9.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "93",
+            "Masala Dum Rice",
+            "9.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "94",
+            "Onion Salad",
+            "2.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "95",
+            "Plain Yogurt",
+            "3.99",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "96",
+            "Samosa chaat",
+            "9.99",
+            "Chaats",
+            "TRUE"
+        ],
+        [
+            "97",
+            "Dal Palak (spinach)",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "98",
+            "Dal Tadka",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "99",
+            "Andhra Spicy Dal",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "100",
+            "Gongura Spicy Dal",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "101",
+            "Dal Makhani",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "102",
+            "Vegetable Khorma",
+            "15.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "103",
+            "Mughlai Paneer",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "104",
+            "Aloo Gobi Mutter",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "105",
+            "Kaju Paneer",
+            "17.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "106",
+            "Malai Kofta",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "107",
+            "Navarathan Khorma",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "108",
+            "Bindi masala",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "109",
+            "Andhra Veg Curry",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "110",
+            "Tomato Cashew Curry",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "111",
+            "Channa Batura",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "112",
+            "Channa Poori",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "113",
+            "Chana masala",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "114",
+            "Bhagara Baingan",
+            "15.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "115",
+            "Kadai Paneer",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "116",
+            "Saag Chana",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "117",
+            "Paneer Butter Masala",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "118",
+            "Paneer Tikka Masala",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "119",
+            "Saag Paneer",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "120",
+            "Muttar Paneer",
+            "16.49",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "121",
+            "Gongura Paneer Curry",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "122",
+            "Hyderabad Paneer Curry",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "123",
+            "Kaju Chicken Curry",
+            "17.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "124",
+            "Butter Chicken",
+            "17.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "125",
+            "Chicken Tikka Masala",
+            "16.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "126",
+            "Chicken Mughlai Khorma",
+            "16.49",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "127",
+            "Kadai Chicken",
+            "16.49",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "128",
+            "Chettinad Chicken",
+            "16.49",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "129",
+            "Chicken Bhuna Masala",
+            "15.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "130",
+            "Bindaz Spicy Chicken Curry",
+            "16.45",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "131",
+            "Gongura Chicken Curry",
+            "15.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "132",
+            "Ulavacharu Chicken Curry",
+            "16.49",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "133",
+            "Chicken Vindaloo",
+            "15.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "134",
+            "Saag Chicken",
+            "15.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "135",
+            "Chicken Tikka Saag",
+            "16.99",
+            "Non-Veg Entrees",
+            "FALSE"
+        ],
+        [
+            "136",
+            "Egg Masala Curry",
+            "16.49",
+            "Egg Entrees",
+            "FALSE"
+        ],
+        [
+            "137",
+            "Haryana Egg Curry",
+            "16.49",
+            "Egg Entrees",
+            "FALSE"
+        ],
+        [
+            "138",
+            "Nizami Special Egg Curry",
+            "16.49",
+            "Egg Entrees",
+            "FALSE"
+        ],
+        [
+            "139",
+            "Hyderabad Egg Curry",
+            "16.49",
+            "Egg Entrees",
+            "FALSE"
+        ],
+        [
+            "140",
+            "Prawn Majestic",
+            "17.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "141",
+            "Prawn Manchurian",
+            "17.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "142",
+            "Fish Masala Curry",
+            "17.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "143",
+            "Chettinad Fish Curry",
+            "17.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "144",
+            "Prawn Butter Masala",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "145",
+            "Kadai Prawn",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "146",
+            "Malai Prawn",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "147",
+            "Gongura Prawns",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "148",
+            "Prawn Masala",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "149",
+            "Plain Naan",
+            "2.49",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "150",
+            "Roti",
+            "2.49",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "151",
+            "Butter Roti",
+            "2.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "152",
+            "Poori Plain",
+            "3.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "153",
+            "Plain Bathura",
+            "3.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "154",
+            "Methi Roti",
+            "4.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "155",
+            "Laccha Paratha",
+            "4.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "156",
+            "Onion Kulcha",
+            "4.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "157",
+            "Methi Paratha",
+            "5.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "158",
+            "Aloo Paratha",
+            "5.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "159",
+            "Pudina Paratha",
+            "5.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "160",
+            "Ajwain Paratha",
+            "5.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "161",
+            "Butter Naan",
+            "3.49",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "162",
+            "Chilli Naan",
+            "4.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "163",
+            "Garlic Naan",
+            "4.49",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "164",
+            "Cheese Naan",
+            "6.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "165",
+            "Cheese Garlic Naan",
+            "7.99",
+            "Naans & Rotis",
+            "TRUE"
+        ],
+        [
+            "166",
+            "Kadai Goat",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "167",
+            "Goat Malai",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "168",
+            "Bindaz Spicy Goat Curry",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "169",
+            "Goat Bhuna Masala",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "170",
+            "Goat Rogan Josh",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "171",
+            "Gongura Goat Curry (sorel leaf)",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "172",
+            "Ulavacharu Goat Curry",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "173",
+            "Lamb Khorma",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "174",
+            "Lamb Rogan Josh",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "175",
+            "Lamb Vindaloo",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "176",
+            "Lamb Bhuna Masala",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "177",
+            "Lamb Saag",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "178",
+            "Kadai Lamb",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "179",
+            "Bindaz Spicy Lamb Curry",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "180",
+            "Gongura Lamb Curry",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "181",
+            "Ulavacharu Lamb Curry",
+            "19.49",
+            "Lamb Entrees",
+            "FALSE"
+        ],
+        [
+            "182",
             "Veg/Chicken Wraps",
             "13.99",
-            "Chats and wraps",
+            "Wraps",
             "FALSE"
         ],
         [
-            "540",
+            "183",
+            "Dil Kush Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "184",
+            "Ghee Roast Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "185",
+            "Ghee Roast Cashew Paneer Biryani",
+            "17.49",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "186",
+            "Bindaz Paneer 65 Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "187",
+            "Gutti Vankaya Biryani (eggplant)",
+            "16.49",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "188",
+            "Karivepaku Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "189",
+            "Paneer Tikka Biryani",
+            "17.49",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "190",
+            "Paneer Vegetable Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "191",
+            "Mughlai Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "192",
+            "Ulavacharu Veg Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "193",
+            "Gongura Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "194",
             "Veg Kheema Biryani",
             "15.99",
-            "Veg Biryanis",
+            "Veg Biryani",
             "TRUE"
         ],
         [
-            "541",
+            "195",
+            "Royal Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "196",
+            "Mushroom Biryani",
+            "16.49",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "197",
+            "Zabardast Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "198",
             "Spicy Paneer Biryani",
             "16.99",
-            "Veg Biryanis",
+            "Veg Biryani",
             "TRUE"
         ],
         [
-            "542",
-            "BEZ Paneer Biryani",
+            "199",
+            "Dil Kush Chicken Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "200",
+            "Hyderabadi Chicken Dum Biryani - bone in",
             "16.99",
-            "Veg Biryanis",
-            "TRUE"
+            "Chicken Biryani",
+            "FALSE"
         ],
         [
-            "543",
+            "201",
+            "Mughlai Chicken Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "202",
+            "Gongura Chicken Biryani",
+            "17.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "203",
+            "Bindaz Chicken 65 Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "204",
+            "Zabardast Chicken Biryani",
+            "17.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "205",
+            "Spicy Chicken Boneless Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "206",
+            "Butter Chicken Biryani",
+            "18.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "207",
             "Chicken Lollipop Biryani",
             "18.49",
-            "Chicken Biryanis",
+            "Chicken Biryani",
             "FALSE"
         ],
         [
-            "544",
+            "208",
             "Chicken Wings Biryani",
             "18.49",
-            "Chicken Biryanis",
+            "Chicken Biryani",
             "FALSE"
         ],
         [
-            "545",
+            "209",
+            "Maharaja Chicken Biryani",
+            "18.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "210",
+            "Ghee Roast Cashew Chicken Biryani",
+            "18.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "211",
+            "Ghee Roasted Chicken Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "212",
+            "BEZ Chicken Biryani",
+            "17.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "213",
+            "Karivepaku Chicken Biryani",
+            "18.49",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "214",
+            "Ulvacharu Chicken Biryani - Bone in",
+            "17.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "215",
+            "Chicken Tikka Biryani",
+            "18.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "216",
+            "Chicken Fry Piece Biryani (Bone-in)",
+            "17.99",
+            "Chicken Biryani",
+            "FALSE"
+        ],
+        [
+            "217",
+            "Gongura Goat (Boneless) Biryani",
+            "19.99",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "218",
+            "Gongura Goat (Bone in) Biryani",
+            "19.49",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "219",
+            "Mughlai Gosht Biryani",
+            "19.49",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "220",
+            "Palnadu Spicy Mutton Biryani",
+            "19.49",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "221",
+            "Ghee Roasted Cashew Mutton Biryani (boneless)",
+            "19.99",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "222",
+            "Ghee Roasted Mutton Biryani (Boneless)",
+            "19.49",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "223",
+            "Ghee Roasted Goat Biryani (bone-in)",
+            "19.49",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "224",
+            "BEZ Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "225",
+            "Ghee Roasted Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "226",
+            "Spicy Special Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "227",
+            "Shrimp Moghulai Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "228",
+            "Dilkush Egg Biryani",
+            "16.99",
+            "Egg Biryani",
+            "FALSE"
+        ],
+        [
+            "229",
+            "Ghee Roasted Cashew Egg Biryani",
+            "16.99",
+            "Egg Biryani",
+            "FALSE"
+        ],
+        [
+            "230",
+            "Egg Biryani",
+            "16.99",
+            "Egg Biryani",
+            "FALSE"
+        ],
+        [
+            "231",
+            "Apricot delight",
+            "5.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "232",
             "Bread Halwa",
             "5.99",
             "Desserts",
             "TRUE"
         ],
         [
-            "546",
+            "233",
+            "Carrot halwa",
+            "4.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "234",
+            "Coconut Jamun",
+            "4.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "235",
+            "Gulab Jamun",
+            "4.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "236",
+            "Gulab Jamun With Ice Cream",
+            "6.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "237",
+            "Rasmalai",
+            "5.99",
+            "Desserts",
+            "TRUE"
+        ],
+        [
+            "238",
             "Matka Khulfi (Rabdi/Mango/Pistachio)",
             "4.99",
             "Desserts",
             "TRUE"
         ],
         [
-            "547",
-            "Hyderabadi Irani Chai - Small/Regular",
-            "1.49/3.00",
+            "239",
+            "Cardamom Tea",
+            "3.99",
             "Beverages",
             "TRUE"
         ],
         [
-            "548",
-            "Hyderabadi Masala Chai - Small/Regular",
-            "1.49/3.00",
+            "240",
+            "Madras Coffee",
+            "3.99",
             "Beverages",
             "TRUE"
         ],
         [
-            "549",
+            "241",
+            "Indian Masala Tea",
+            "3.99",
+            "Beverages",
+            "TRUE"
+        ],
+        [
+            "242",
+            "Hyderabadi Irani Chai - Small",
+            "1.49",
+            "Beverages",
+            "TRUE"
+        ],
+        [
+            "243",
+            "Hyderabadi Irani Chai - Regular",
+            "3.00",
+            "Beverages",
+            "TRUE"
+        ],
+        [
+            "244",
+            "Hyderabadi Masala Chai - Small",
+            "1.49",
+            "Beverages",
+            "TRUE"
+        ],
+        [
+            "245",
+            "Hyderabadi Masala Chai - Regular",
+            "3.00",
+            "Beverages",
+            "TRUE"
+        ],
+        [
+            "246",
             "Soft drinks/water",
             "2.99",
-            "Beverages",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "247",
+            "Kashmiri Jeera",
+            "3.49",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "248",
+            "Limca",
+            "2.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "249",
+            "Thumbs up",
+            "3.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "250",
+            "Mango Rupture Lassi",
+            "3.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "251",
+            "Rose Rupture Lassi",
+            "4.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "252",
+            "Sweet Lassi/Salt Lassi",
+            "3.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "253",
+            "Lemon soda",
+            "3.99",
+            "Cold Beverages",
+            "TRUE"
+        ],
+        [
+            "254",
+            "Street Style Manchurian Veg Fried Rice",
+            "16.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "255",
+            "Street Style Manchurian Veg Noodles",
+            "16.99",
+            "Indo Chinese Veg",
+            "TRUE"
+        ],
+        [
+            "256",
+            "Paneer Manchurian",
+            "16.99",
+            "Veg Appetizers",
+            "TRUE"
+        ],
+        [
+            "257",
+            "Bindaz BEZ Hot Chicken",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "258",
+            "Bindaz Special Veg Biryani",
+            "16.49",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "259",
+            "BEZ Paneer Biryani",
+            "16.99",
+            "Veg Biryani",
+            "TRUE"
+        ],
+        [
+            "260",
+            "Extra Raitha",
+            "1.49",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "261",
+            "Extra Salan",
+            "1.49",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "262",
+            "Boiled Eggs - 2",
+            "3.99",
+            "Extras Dishes",
+            "FALSE"
+        ],
+        [
+            "263",
+            "Osmania Biscuit-2",
+            "1.00",
+            "Extras Dishes",
+            "TRUE"
+        ],
+        [
+            "264",
+            "Bindaz BEZ Hot Shrimp",
+            "18.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "265",
+            "Gongura Egg Biryani",
+            "16.99",
+            "Egg Biryani",
+            "FALSE"
+        ],
+        [
+            "266",
+            "Chilli Egg",
+            "16.49",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "267",
+            "Schezwan Chicken",
+            "16.99",
+            "Chicken Appetizers",
+            "FALSE"
+        ],
+        [
+            "268",
+            "Ulvacharu Goat Biryani - Bone in",
+            "19.99",
+            "Goat/Mutton Biryani",
+            "FALSE"
+        ],
+        [
+            "269",
+            "Chettinad Goat Curry",
+            "19.49",
+            "Goat Entrees",
+            "FALSE"
+        ],
+        [
+            "270",
+            "Shrimp 65",
+            "18.99",
+            "Seafood Appetizers",
+            "FALSE"
+        ],
+        [
+            "271",
+            "Karivepaku Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "272",
+            "Dilkush Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "273",
+            "Ghee Roasted Cashew Shrimp Biryani",
+            "19.49",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "274",
+            "Zabardast Shrimp Biryani",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "275",
+            "Gongura Shrimp Biryanis",
+            "18.99",
+            "Shrimp Biryani",
+            "FALSE"
+        ],
+        [
+            "276",
+            "Gongura Spicy Fish Curry",
+            "17.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "277",
+            "Palakollu Fish Curry",
+            "17.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "278",
+            "Prawn Bhuna Masala",
+            "18.99",
+            "Seafood Entrees",
+            "FALSE"
+        ],
+        [
+            "279",
+            "Methi Chaman",
+            "16.99",
+            "Veg Entrees",
+            "TRUE"
+        ],
+        [
+            "280",
+            "Molsen Canadian",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "281",
+            "Coors Light",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "282",
+            "Budwiser",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "283",
+            "Kingfisher",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "284",
+            "Corona Extra",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "285",
+            "Henekin",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "286",
+            "Cheetha(Mango)",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "287",
+            "Cheetha(Premium)",
+            "5.99",
+            "Bottled Beer",
+            "TRUE"
+        ],
+        [
+            "288",
+            "Jameson Irish",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "289",
+            "JW Black Label",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "290",
+            "Glenlivit",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "291",
+            "Glenlivit 12",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "292",
+            "Glenfiddich 12",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "293",
+            "Chivas Regal 12",
+            "5.99",
+            "Whiskey & Scotch 1oz",
+            "TRUE"
+        ],
+        [
+            "294",
+            "Captain Morgan",
+            "5.99",
+            "Spirits 1oz",
+            "TRUE"
+        ],
+        [
+            "295",
+            "Bacardi White",
+            "5.99",
+            "Spirits 1oz",
+            "TRUE"
+        ],
+        [
+            "296",
+            "Bombay Sapphire",
+            "5.99",
+            "Spirits 1oz",
+            "TRUE"
+        ],
+        [
+            "297",
+            "Absolute Vodka",
+            "5.99",
+            "Spirits 1oz",
+            "TRUE"
+        ],
+        [
+            "298",
+            "Grey Goose",
+            "6.99",
+            "Spirits 1oz",
+            "TRUE"
+        ],
+        [
+            "299",
+            "Tequila Shot",
+            "4.99",
+            "Shots",
+            "TRUE"
+        ],
+        [
+            "300",
+            "Jagermeister",
+            "4.99",
+            "Shots",
+            "TRUE"
+        ],
+        [
+            "301",
+            "Shiraz",
+            "",
+            "Red Wine",
+            "TRUE"
+        ],
+        [
+            "302",
+            "Cabernet Sauvignon",
+            "",
+            "Red Wine",
+            "TRUE"
+        ],
+        [
+            "303",
+            "Chardonnay",
+            "",
+            "White Wine",
+            "TRUE"
+        ],
+        [
+            "304",
+            "Pinot Grigio",
+            "",
+            "White Wine",
             "TRUE"
         ]
     ]
