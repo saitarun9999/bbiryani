@@ -263,14 +263,14 @@
         ],
         [
             "37",
-            "Chicken Lollipops",
+            "Chicken Lollipops (Dry/Wet)",
             "16.99",
             "Chicken Appetizers",
             "FALSE"
         ],
         [
             "38",
-            "Chicken Wings (Butter/Chilli/Buffalo/Regular)",
+            "Chicken Wings (Chilli/Buffalo/Regular) (Dry/Wet)",
             "16.49",
             "Chicken Appetizers",
             "FALSE"
@@ -494,14 +494,7 @@
         ],
         [
             "70",
-            "Street Style Chicken Fried Rice",
-            "17.49",
-            "Indo Chinese Non-Veg",
-            "FALSE"
-        ],
-        [
-            "71",
-            "Street Style Chicken Noodles",
+            "Street Style Noodles/ Fried Rice",
             "17.49",
             "Indo Chinese Non-Veg",
             "FALSE"
@@ -585,14 +578,7 @@
         ],
         [
             "83",
-            "Street Style Veg Fried Rice",
-            "16.99",
-            "Indo Chinese Veg",
-            "TRUE"
-        ],
-        [
-            "84",
-            "Street Style Veg Noodles",
+            "Street Style Noodles/ Fried Rice",
             "16.99",
             "Indo Chinese Veg",
             "TRUE"
@@ -760,7 +746,7 @@
         ],
         [
             "108",
-            "Bindi masala",
+            "Bhindi masala",
             "16.99",
             "Veg Entrees",
             "TRUE"
@@ -809,7 +795,7 @@
         ],
         [
             "115",
-            "Kadai Paneer",
+            "Kadhai Paneer",
             "16.99",
             "Veg Entrees",
             "TRUE"
@@ -1600,7 +1586,7 @@
         ],
         [
             "228",
-            "Dilkush Egg Biryani",
+            "Dil Kush Egg Biryani",
             "16.99",
             "Egg Biryani",
             "FALSE"
@@ -1867,7 +1853,7 @@
         [
             "266",
             "Chilli Egg",
-            "16.49",
+            "16.99",
             "Chicken Appetizers",
             "FALSE"
         ],
@@ -1929,7 +1915,7 @@
         ],
         [
             "275",
-            "Gongura Shrimp Biryanis",
+            "Gongura Shrimp Biryani",
             "18.99",
             "Shrimp Biryani",
             "FALSE"
